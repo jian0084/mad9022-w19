@@ -1,8 +1,8 @@
 <template>
     <div class="video-player" :title="title">
         <video class="video" loop autoplay muted>
-            <source :src="$withBase(mp4Url)" type="video/mp4" />
-            <source :src="$withBase(webmUrl)" type="video/webm" />
+            <source :src="mp4Url" type="video/mp4" />
+            <source :src="webmUrl" type="video/webm" />
         </video>
     </div>
 </template>
