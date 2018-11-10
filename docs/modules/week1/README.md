@@ -11,3 +11,4 @@
 />
 
 - Sample text below the video
+- videos are stored in .vuepress/public/media/
