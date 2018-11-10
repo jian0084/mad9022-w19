@@ -7,7 +7,7 @@
 <VideoPlayer 
   title="Stop trying to make fetch happen"
   mp4-url=""
-  webm-url="/mad9022/media/fetch.79da5d42b666.webm"
+  webm-url="$withBase('media/fetch.79da5d42b666.webm')"
 />
 
 - Sample text below the video
