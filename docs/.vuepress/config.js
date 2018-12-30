@@ -45,9 +45,10 @@ module.exports = {
           title: 'Assignments',
           collapsable: true,
           children: [
-              ['/assignments/#exercises', 'Exercises'],
-              ['/assignments/#quizzes', 'Quizzes'],
-              ['/assignments/#projects', 'Projects']
+              ['/assignments/#cordova-projects', 'Cordova Projects'],
+              ['/assignments/#verbal-quizzes', 'Quizzes'],
+              ['/assignments/#assignments', 'Assignments'],
+              ['/assignments/#timed-exercises', 'Timed Exercises']
           ]
       }
     ],
