@@ -135,3 +135,61 @@ Once you have the Message Countdown script working then add the following enhanc
 
 For the message colour try to use CSS class names that get added or removed as needed.
 
+## Data Filtering
+
+Using the [Array.prototype.filter](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter) method to let users filter which records are being displayed on a webpage.
+
+Start with this HTML in the `<body>`
+
+```html
+    <form>
+        <div class="formBox">
+            <label for="minsalary">Minimum</label>
+            <input type="number" min="10000" max="1000000" id="minsalary" value="10000" />
+        </div>
+        <div class="formBox">
+            <label for="maxsalary">Maximum</label>
+            <input type="number" min="10000" max="1000000" id="maxsalary" value="1000000" />
+        </div>
+        <div class="formBox">
+            <button id="filterBtn">Filter Data</button>
+        </div>
+    </form>
+    <ul id="output"></ul>
+    <script>
+        let data = [
+            {id:123, name:'Sheldon', salary:75000},
+            {id:123, name:'Leonard', salary:70000},
+            {id:123, name:'Amy', salary:73000},
+            {id:123, name:'Howard', salary:63000},
+            {id:123, name:'Raj', salary:64000},
+            {id:123, name:'Bernadette', salary:145000},
+            {id:123, name:'Penny', salary:55000},
+        ];
+        let sortBySalary = (a, b) => {
+            return a.salary - b.salary;
+        };
+        let outputList = (arr) => {
+            let ul = document.getElementById('output');
+            ul.innerHTML = '';
+            arr.sort(sortBySalaray);
+            arr.forEach( person => {
+                let li = document.createElement('li');
+                li.textContent = person.name;
+                ul.appendChild(li);
+            });
+        };
+        let filterList = (ev) => {
+            ev.preventDefault();
+
+        };
+        document.addEventListener('DOMContentLoaded', ()=>{
+            outputList(data);
+            document.getElementById('filterBtn').addEventListener('click', filterList);
+        });
+    </script>
+```
+
+Complete the filterList function so that it creates a new array by using the Array.prototype.filter method to loop through the `data` array and only keep the people whose salary falls in between the min and max values entered in the form. The range of the numbers should be considered inclusive, not exclusive.
+
+
