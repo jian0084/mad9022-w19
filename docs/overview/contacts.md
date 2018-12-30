@@ -1,8 +1,9 @@
 # Contacts
 
+### Course Instructor
 
 <ContactCard 
-  name="Steve Griffith"
+  name="Professor Steve Griffith"
   title="Program Coordinator"
   img-url="/mad9022-w19/steve-griffith.jpeg"
   bio="Coordinator of the Mobile Application Design & Development Program at Algonquin College."
@@ -15,6 +16,9 @@
 />
 
 
+### Student Success Specialists
+
+If you have any problems with General Education Courses, School Financial Matters, Exemptions, or Accessibility matters then feel free to reach out to either Deb or Jody.
 
 <ContactCard 
   name="Deborah Buck"
