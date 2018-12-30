@@ -10,7 +10,8 @@
 - You could get 6/10 on each of the six submissions and that would give you a total of 36/40. Alternatively you could get 9/10 on only four submissions and that would also give you a total of 36/40.
 - 40/40 marks is the maximum that you can get for this part of the grade.
 - So, you can gain grades through quantity OR quality.
-- [Cordova Project List](./projects.md)
+
+**[Cordova Project List](./projects.md)**
 
 
 ## Verbal Quizzes <Badge text="20% of Final Grade"/>
@@ -43,8 +44,10 @@
 - There are two assignments, one at the start of the course and one at the end.
 - The first one will be with HTML Canvas.
 - The second one will be done in collaboration with MAD9124.
-- [HTML Canvas Assignment](./canvas.md)
-- [API Assignment](./api.md)
+
+**[HTML Canvas Assignment](./canvas.md)**
+
+**[API Assignment](./api.md)**
 
 ## Timed Exercises <Badge text="20% of Final Grade"/>
 
@@ -62,5 +65,6 @@
 
 - These are exercises that you can do at any time to practice and improve your JavaScript skills. 
 - These are not for submission or grades.
-- [Practice Exercises](./practice.md)
+
+**[Practice Exercises](./practice.md)**
 
