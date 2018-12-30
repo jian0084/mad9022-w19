@@ -4,7 +4,7 @@
 <ContactCard 
   name="Steve Griffith"
   title="Program Coordinator"
-  img-url="/mad9022/steve-griffith.jpeg"
+  img-url="/mad9022-w19/steve-griffith.jpeg"
   bio="Coordinator of the Mobile Application Design & Development Program at Algonquin College."
   :details="[
       { label: 'email', value: 'griffis@algonquincollege.com' }, 

@@ -1,14 +1,9 @@
-# MAD9022 - Module 1
+# MAD9022 - Introduction
 
-## Testing Video
+## GitHub Usernames
 
-- Sample text above the video
+## Review Course Deliverables and Timetable
 
-<VideoPlayer 
-  title="Stop trying to make fetch happen"
-  mp4-url=""
-  webm-url="/media/fetch.79da5d42b666.webm"
-/>
+## VS Code
 
-- Sample text below the video
-- videos are stored in .vuepress/public/media/
+## 

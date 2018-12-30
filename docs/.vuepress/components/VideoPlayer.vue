@@ -9,7 +9,7 @@
 
 <script>
     export default {
-        name: 'ContactCard',
+        name: 'VideoPlayer',
         props: {
             title: { type: String, required: true },
             mp4Url: { type: String, default: '/mad9022/media/samplevideo.mp4' },
