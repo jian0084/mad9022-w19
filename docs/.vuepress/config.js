@@ -1,7 +1,7 @@
 module.exports = {
   title: 'MAD9022',
   description: 'Cross-Platform App Development II',
-  base: '/mad9022/',
+  base: '/mad9022-w19/',
   themeConfig: {
     serviceWorker: {
       updatePopup: true
