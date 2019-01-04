@@ -14,6 +14,7 @@
 **[Cordova Project List](./projects.md)**
 
 
+
 ## Verbal Quizzes <Badge text="20% of Final Grade"/>
 
 - Over the course of the semester many of the classes will begin with a series of pop quiz questions. Some classes will have no questions. Some will have between 5 and 10 questions.

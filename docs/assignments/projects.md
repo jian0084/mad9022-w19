@@ -1,6 +1,7 @@
 # Cordova Projects
 
 The minimum requirements for any project submission are:
+
     - The App has a unique launcher icon CREATED BY YOU
     - The App has a unique splashscreen image CREATED BY YOU
     - The App has been demonstrated, in class, to the instructor, installed and running on a phone.
