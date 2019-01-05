@@ -17,10 +17,10 @@
 <style>
     .video-player{
         width: 100%;
+        padding: 2rem 0;
     }
     .video{
         width: 100%;
         height: auto;
-        padding: 2rem 0;
     }
 </style>
