@@ -43,7 +43,16 @@ Plagiarism is just copying work that is done by someone else without making the 
 
 Submitting plagiarized work will get you a zero on the plagiarized assignment. A second incidence of plagiarism will get you a zero on the course. 
 
-[Student Attestation](/mad9022-w19/AA20-student-attestation.pdf)
+[Student Attestation](/mad9022-w19/AA20-student-attestation.pdf) - please download, complete, and sign this form.
+
+Use this information for the first four form fields:
+
+    Program Name: Mobile Application Design & Development
+    Professor:    Steve Griffith
+    Course # and Name:  MAD9022 Cross-Platform Application Development
+    Term:   Winter 2019
+
+
 
 
 ## Program Assignment Late Policy
