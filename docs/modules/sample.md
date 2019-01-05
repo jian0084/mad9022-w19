@@ -1,5 +1,5 @@
 
-## Testing Video
+## Sample VideoPlayer
 
 - Sample text above the video
 
@@ -11,3 +11,10 @@
 
 - Sample text below the video
 - videos are stored in .vuepress/public/media/
+
+## Sample YouTube Player
+
+<YouTube
+  title="The name of the tutorial or playlist"
+  url="https://www.youtube.com/"
+/>
