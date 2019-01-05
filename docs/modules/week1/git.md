@@ -73,8 +73,9 @@ The upload (PUSH) command will take your local code and try to overwrite the ver
 
 <YouTube
   title="Learning Git Playlist"
-  url="https://www.youtube.com/watch?v=EdEWigP6zxQ&list=PLyuRouwmQCjmYaG21ijCw0KrFiFEG0Oh9"
+  url="https://www.youtube.com/embed/EdEWigP6zxQ"
 />
+
 
 ### Websites
 
