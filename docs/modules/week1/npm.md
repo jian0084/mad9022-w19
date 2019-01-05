@@ -24,6 +24,17 @@ This will create a file called `package.json` which will hold all the informatio
 
 ## NPX
 
+`npx` is a small program included with Node and NPM that allows you to load an npm module into memory and run it without having to download and install it.
+
+If you wanted to run the npm module `cowsay`, you can use npx to do that like this:
+
+```
+npx cowsay 'hello'
+```
+
+This will load cowsay into memory and run it while passing `hello` as a parameter to the cowsay module.
+
+
 ## Running Node from the CLI
 
 
