@@ -71,28 +71,28 @@ The upload (PUSH) command will take your local code and try to overwrite the ver
 
 ### Video Tutorials
 
-<Badge text="Git Introduction" /> 
+#### Git Introduction 
 
 <YouTube
   title="Learning Git Intro"
   url="https://www.youtube.com/embed/EdEWigP6zxQ"
 />
 
-<Badge text="Cloning Git Repos" /> 
+#### Cloning Git Repos
 
 <YouTube
   title="Cloning Git Repos"
   url="https://www.youtube.com/embed/0I8SLF3z-OU"
 />
 
-<Badge text="Git Branches" /> 
+#### Git Branches
 
 <YouTube
   title="Git WTF is a Branch"
   url="https://www.youtube.com/embed/t4IbjqqW8x0"
 />
 
-<Badge text="Git Uploading and Pushing" /> 
+#### Git Uploading and Pushing
 
 <YouTube
   title="Git Pushing to GitHub"
@@ -100,12 +100,15 @@ The upload (PUSH) command will take your local code and try to overwrite the ver
 />
 
 
-<Badge text="GitHub" />
+#### GitHub Playlist Introduction
 
 <YouTube
   title="Learning GitHub Introduction"
   url="https://www.youtube.com/embed/M9uTajSRytE"
 />
+
+There are more Github videos in the playlist. You can find the link at the end of the video.
+
 
 
 ### Websites
