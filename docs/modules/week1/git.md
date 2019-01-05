@@ -76,10 +76,15 @@ The upload (PUSH) command will take your local code and try to overwrite the ver
   url="https://www.youtube.com/embed/EdEWigP6zxQ"
 />
 
+<YouTube
+  title="Learning GitHub Playlist"
+  url="https://www.youtube.com/embed/M9uTajSRytE"
+/>
+
 
 ### Websites
 
-[GitHub website](https://www.github.com/) - for free repo storage
-[GitHub Education](https://education.github.com/pack) - for students to sign up and get free Private repos and other swag.
-[Git website](https://git-scm.com/) - website of the official software that runs locally and behind-the-scenes on Github.
-[Git documentation](https://git-scm.com/book/en/v2) - Free Guide to Git
+- [GitHub website](https://www.github.com/) : for free repo storage
+- [GitHub Education](https://education.github.com/pack) : for students to sign up and get free Private repos and other swag.
+- [Git website](https://git-scm.com/) : website of the official software that runs locally and behind-the-scenes on Github.
+- [Git documentation](https://git-scm.com/book/en/v2) : Free Guide to Git
