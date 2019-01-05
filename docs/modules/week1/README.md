@@ -87,4 +87,7 @@ One of the new tools that we will be using this semester is VS Code, instead of 
 
 ## HTML Canvas
 
+HTML5 introduced a new element that can be used to draw graphics programmatically. You can add text, images, or even video content onto the Canvas. You can render graphics in 2D or 3D on the Canvas element.
+
+[More details about Canvas](./canvas.md)
 
