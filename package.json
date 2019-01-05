@@ -13,6 +13,7 @@
   },
   "scripts": {
     "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs"
+    "docs:build": "vuepress build docs",
+    "gitpush": "git add -A && git commit -m 'update files' && git push origin master && deploy.sh"
   }
 }
