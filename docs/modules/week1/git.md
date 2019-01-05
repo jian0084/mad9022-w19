@@ -71,17 +71,39 @@ The upload (PUSH) command will take your local code and try to overwrite the ver
 
 ### Video Tutorials
 
-<Badge text="Git" /> 
+<Badge text="Git Introduction" /> 
 
 <YouTube
-  title="Learning Git Playlist"
+  title="Learning Git Intro"
   url="https://www.youtube.com/embed/EdEWigP6zxQ"
 />
+
+<Badge text="Cloning Git Repos" /> 
+
+<YouTube
+  title="Cloning Git Repos"
+  url="https://www.youtube.com/embed/0I8SLF3z-OU"
+/>
+
+<Badge text="Git Branches" /> 
+
+<YouTube
+  title="Git WTF is a Branch"
+  url="https://www.youtube.com/embed/t4IbjqqW8x0"
+/>
+
+<Badge text="Git Uploading and Pushing" /> 
+
+<YouTube
+  title="Git Pushing to GitHub"
+  url="https://www.youtube.com/embed/W7utItgBfN0"
+/>
+
 
 <Badge text="GitHub" />
 
 <YouTube
-  title="Learning GitHub Playlist"
+  title="Learning GitHub Introduction"
   url="https://www.youtube.com/embed/M9uTajSRytE"
 />
 

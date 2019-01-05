@@ -21,5 +21,6 @@
     .video{
         width: 100%;
         height: auto;
+        padding: 2rem 0;
     }
 </style>
