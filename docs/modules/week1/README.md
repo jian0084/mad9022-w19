@@ -43,6 +43,8 @@ Plagiarism is just copying work that is done by someone else without making the 
 
 Submitting plagiarized work will get you a zero on the plagiarized assignment. A second incidence of plagiarism will get you a zero on the course. 
 
+[Student Attestation](/mad9022-w19/AA20-student-attestation.pdf)
+
 
 ## Program Assignment Late Policy
 
