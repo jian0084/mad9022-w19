@@ -71,10 +71,14 @@ The upload (PUSH) command will take your local code and try to overwrite the ver
 
 ### Video Tutorials
 
+<Badge text="Git" /> 
+
 <YouTube
   title="Learning Git Playlist"
   url="https://www.youtube.com/embed/EdEWigP6zxQ"
 />
+
+<Badge text="GitHub" />
 
 <YouTube
   title="Learning GitHub Playlist"
