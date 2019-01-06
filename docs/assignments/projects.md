@@ -17,13 +17,25 @@ All submissions must be demonstrated and uploaded to GitHub a maximum of 7 days 
 
 ## Project 1
 
+- Details coming soon
+
 ## Project 2
+
+- Details coming soon
 
 ## Project 3
 
+- Details coming soon
+
 ## Project 4
+
+- Details coming soon
 
 ## Project 5
 
+- Details coming soon
+
 ## Project 6
+
+- Details coming soon
 
