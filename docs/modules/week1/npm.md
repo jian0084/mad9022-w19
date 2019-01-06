@@ -142,3 +142,4 @@ Then you will have a node terminal open. You can run any JavaScript commands you
 - [NPM website](https://www.npmjs.com/)
 - [Semantic Versioning website](https://semver.org/)
 
+- [Lynda.com course on NPM scripts](https://www.lynda.com/NPM-tutorials/Welcome/495275/536120-4.html)
