@@ -7,6 +7,10 @@
 
 **[Course Section Information (CSI)](./course-section-information.md)**
 
+## Course Outline
+
+[Course Outline PDF](/mad9022-w19/2018-2019_mad9022.pdf)
+
 ## Student Workload
 
 - 4hrs/week lecture/lab
@@ -50,7 +54,7 @@ Section 020: two days  :clock2:
 
 - ES6
 - Cordova Framework
+- Hybrid Applications
 - Intermediate JavaScript
 - Progressive Web Apps
 - HTML5 APIs
-- Hybrid Applications
