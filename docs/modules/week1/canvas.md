@@ -105,7 +105,9 @@ Watch this video for more details and options.
 
 ## Playing Video on Canvas
 
-Coming soon...
+Video elements can be used as a source for displaying images on the canvas element. The difference with video is that you have to continually grab frames from the video and put them onto the Canvas. You have to write the script which will replace the contents of the canvas with the next frame. There is no automatic way to update the canvas element.
+
+Video coming soon...
 
 <YouTube
     title="Canvas Video Playback"
@@ -114,7 +116,8 @@ Coming soon...
 
 ## Creating Pie Charts on Canvas
 
-Coming soon...
+
+Video coming soon...
 
 <YouTube
     title="Canvas Pie Charts"
@@ -149,3 +152,6 @@ Coming soon...
 - [Canvas PieChart CodePen](https://codepen.io/mad-d/pen/PwpjoJ)
 - [Canvas Rotation CodePen](https://codepen.io/mad-d/pen/EPEZpw)
 - [Canvas Bar Chart CodePen](https://codepen.io/mad-d/pen/JoEPOo)
+- [Manipulating Video on Canvas](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Manipulating_video_using_canvas)
+- [Media Events MDN Reference](https://developer.mozilla.org/en-US/docs/Web/Events#Media_events)
+- 
