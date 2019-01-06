@@ -123,11 +123,17 @@ Then you will have a node terminal open. You can run any JavaScript commands you
 
 #### NPM Fundamentals for Managing Projects
 
-<YouTube title="NPM Fundamentals for Managing Projects" url="https://www.youtube.com/embed/_LqgURg3BXw">
+<YouTube 
+  title="NPM Fundamentals for Managing Projects" 
+  url="https://www.youtube.com/embed/_LqgURg3BXw" 
+  />
 
 #### Semantic Versioning
 
-<YouTube title="Semantic Versioning" url="https://www.youtube.com/embed/mpkC6MmKgsQ" />
+<YouTube 
+  title="Semantic Versioning" 
+  url="https://www.youtube.com/embed/mpkC6MmKgsQ" 
+  />
 
 
 ## Other Resources
