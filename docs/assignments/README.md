@@ -29,7 +29,7 @@
     3. Arrays
     4. DOM
     5. DOM
-    6.
+    6. Cordova
     7. Objects
     8. Loops
     9. CSS
