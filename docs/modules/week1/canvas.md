@@ -75,12 +75,27 @@ Watch this video for more details, properties, and methods.
 
 ## Working with Images
 
-Images can be added to the surface of a Canvas. They can be resized, rotated, or cropped while being added too.
+Images can be added to the surface of a Canvas. They can be resized, rotated, or cropped while being added too. Here is the most basic way to add an image by copying one from an image element onto the canvas.
 
 ```js
-
+let source = document.getElementById('myImage');
+context.drawImage(source, 0, 0);  //draw the image just like a background image on the Canvas
+                                    // start drawing at coords (0,0)
 ```
 
+The source can be an image created with `document.createElement()` or one on the page or a video element or another canvas element.
+
+Once the image is on the canvas we can access each of the pixels in the canvas, which is why the width and height matter. We can ask for the red, green, blue, or alpha value for each pixel. The `context.getImageData()` method is how we access this data. The returned object will have a property called `data` which is the array of all the individual values. Each item in the array is an unsigned 8 bit integer (value from 0 - 255). The first four values are for the first pixel. The second four values are for the second pixel, and so on. The pixels are read from left to right and from top to bottom, inside the area that you define.
+
+```js
+let dataObj = context.getImageData(0, 0, canvas.width, canvas.height);
+let len = dataObj.data.length;
+for(let i=0; i<len; i++){
+    console.log('value', i, ': ', dataObj.data[i]);
+}
+```
+
+We can read from and write to that array in order to retrieve or change the values.
 Watch this video for more details and options.
 
 <YouTube
@@ -114,3 +129,23 @@ Coming soon...
     title="Canvas Bar Graphs"
     url="https://www.youtube.com/embed/"
 />
+
+## Rotating the Canvas or Elements on the Surface
+
+Coming soon...
+
+<YouTube
+    title="Canvas Bar Graphs"
+    url="https://www.youtube.com/embed/"
+/>
+
+## Additional Resources
+
+- [HTML Canvas Tutorial](https://www.html5canvastutorials.com/tutorials/html5-canvas-element/)
+- [Flavio Copes Canvas Tutorial](https://flaviocopes.com/canvas/)
+- [Canvas Intro CodePen](https://codepen.io/mad-d/pen/oZxVNv)
+- [Canvas Image CodePen](https://codepen.io/mad-d/pen/YPNoKN)
+- [Canvas width vs style.width CodePen](https://codepen.io/mad-d/pen/yMNrXX)
+- [Canvas PieChart CodePen](https://codepen.io/mad-d/pen/PwpjoJ)
+- [Canvas Rotation CodePen](https://codepen.io/mad-d/pen/EPEZpw)
+- [Canvas Bar Chart CodePen](https://codepen.io/mad-d/pen/JoEPOo)
