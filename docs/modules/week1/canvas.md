@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', ()=>{
 })
 ```
 
-Once you have these two variables you will be able to start adding text, lines, curves, strokes, fills, shapes, images, and more.
+Once you have these two variables you will be able to start adding text, lines, curves, strokes, fills, shapes, images, and more. Watch the following video for more information.
 
 <YouTube
     title="Canvas Intro and Shapes"
@@ -43,6 +43,7 @@ context.stroke();       //draw the stroke (line) portion on your current layer
 context.fill();         //draw the fill portion of your current layer on the canvas.
 ```
 
+Watch this video for more details, properties, and methods.
 
 <YouTube
     title="Canvas Intro and Shapes"
@@ -64,6 +65,8 @@ context.fillText('Hello', 100, 20);  //Write 'Hello' at coords (100,20)
 context.strokeText('Hello', 100, 20);  //Write 'Hello' at coords (100,20) 
 ```
 
+Watch this video for more details, properties, and methods.
+
 <YouTube
     title="Canvas Intro and Shapes"
     url="https://www.youtube.com/embed/qMPifeAMo7k"
@@ -71,6 +74,14 @@ context.strokeText('Hello', 100, 20);  //Write 'Hello' at coords (100,20)
 
 
 ## Working with Images
+
+Images can be added to the surface of a Canvas. They can be resized, rotated, or cropped while being added too.
+
+```js
+
+```
+
+Watch this video for more details and options.
 
 <YouTube
     title="Canvas Intro and Shapes"
