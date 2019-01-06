@@ -66,7 +66,7 @@ Extensions may be given for valid reasons, if requested more than one day before
 
 We have Program Assistants again this semester to help students in level 2. The PAs will be in class helping in MAD9021, MAD9022, and MAD9124.
 
-We also have open lab hours ::clock2:: Thursday and Friday from 11am to 12pm. There will be a Program Assistant in the lab during these two hours to help anyone looking for assistance with any course work.
+We also have open lab hours :clock2: Thursday and Friday from 11am to 12pm. There will be a Program Assistant in the lab during these two hours to help anyone looking for assistance with any course work.
 
 
 ## Git from CLI
