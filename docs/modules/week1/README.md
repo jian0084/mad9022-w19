@@ -62,6 +62,13 @@ The MAD&D program has a standard late policy. Late assignments will receive a 10
 Extensions may be given for valid reasons, if requested more than one day before the due date.
 
 
+## Program Assistants and Open Lab Hours
+
+We have Program Assistants again this semester to help students in level 2. The PAs will be in class helping in MAD9021, MAD9022, and MAD9124.
+
+We also have open lab hours ::clock2:: Thursday and Friday from 11am to 12pm. There will be a Program Assistant in the lab during these two hours to help anyone looking for assistance with any course work.
+
+
 ## Git from CLI
 
 This semester we will be using Git for most of our work. We will be using it from the Command Line.
