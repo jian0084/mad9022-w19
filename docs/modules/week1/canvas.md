@@ -29,6 +29,21 @@ Once you have these two variables you will be able to start adding text, lines, 
 
 ## Drawing Lines
 
+Most of the commands that you will call with the canvas will be methods of the context object.
+
+On the context object we can set styles and properties that will be used for drawing lines and shapes and adding text.
+
+```js
+context.lineWidth = 5;  //lines will be 5px thick
+context.strokeStyle = '#bada55'; //lines will be green
+context.linecap = 'square';  //the shape of the end of the line
+context.beginPath();  //start a new layer in your drawing
+context.closePath();  //stop adding things to the current layer
+context.stroke();       //draw the stroke (line) portion on your current layer
+context.fill();         //draw the fill portion of your current layer on the canvas.
+```
+
+
 <YouTube
     title="Canvas Intro and Shapes"
     url="https://www.youtube.com/embed/-Guz9o-GiB0"
@@ -36,6 +51,18 @@ Once you have these two variables you will be able to start adding text, lines, 
 
 
 ## Adding Text
+
+When adding text, we will be setting properties that are a lot like CSS and then calling the `stroke()`, `fill()` or both methods to make the text appear on the canvas.
+
+```js
+context.font = 'bold 20px Arial, Calibri, Helvetica, sans-serif';
+context.fillStyle = 'red';
+context.lineWidth = 1;   //thickness of the stroke
+context.strokeStyle = '#333';
+context.textAlign = 'start';  //same as left if text direction is ltr
+context.fillText('Hello', 100, 20);  //Write 'Hello' at coords (100,20) 
+context.strokeText('Hello', 100, 20);  //Write 'Hello' at coords (100,20) 
+```
 
 <YouTube
     title="Canvas Intro and Shapes"
