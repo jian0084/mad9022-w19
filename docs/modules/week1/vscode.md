@@ -6,7 +6,7 @@ It has many advantages like integrated Emmet, Integrated Git support, and an Int
 
 ## Download
 
-You can download VS Code for OSX or Windows from [this website]().
+You can download VS Code for OSX or Windows from [the official website](https://code.visualstudio.com/download).
 
 ## Official Documentation
 
