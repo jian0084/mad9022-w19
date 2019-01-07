@@ -140,6 +140,22 @@ Video coming soon...
 
 ## Rotating the Canvas or Elements on the Surface
 
+We actually can't rotate individual elements on the Canvas. However, what we can do is rotate the context before adding a layer and then put it back to it's original orientation after adding the layer content.
+
+We would first need to `save` the current location and rotation of the canvas. Then we need to `translate` the context to the point around which we want to rotate. This means taking the (0,0) point, which is the top, left corner and moving it to the rotation point. Next, we `rotate` the context in the opposite direction to what we want for the rotated content. Finally, we `restore` the context to what it was before our `translate` and `rotate`.
+
+```js
+context.save(); //we are saving a restore point, just like in a game.
+context.translate(200,200);
+context.rotate(3.14);   //angles of rotation are always in radians, not degrees
+context.beginPath();
+context.font = '20px Helvetica, Arial';
+context.textAlign = 'center';
+context.fillText("Hello World", 0, 0); //adding it at what will be (200,200)
+context.closePath();
+context.restore();
+```
+
 Video coming soon...
 
 <YouTube
