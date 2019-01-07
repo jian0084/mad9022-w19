@@ -105,7 +105,7 @@ Watch this video for more details and options.
 
 ## Playing Video on Canvas
 
-Video elements can be used as a source for displaying images on the canvas element. The difference with video is that you have to continually grab frames from the video and put them onto the Canvas. You have to write the script which will replace the contents of the canvas with the next frame. There is no automatic way to update the canvas element.
+Video elements can be used as a source for displaying images on the canvas element. The difference with video is that you have to continually grab frames from the video and put them onto the Canvas. You have to write the script which will replace the contents of the canvas with the next frame. There is no automatic way to update the canvas element with the next video frame.
 
 Video coming soon...
 
