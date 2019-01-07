@@ -122,8 +122,6 @@ Sometimes it is the raw data from the XML or JSON that you use. Sometimes you wi
 
 #### Canvas Pie Charts
 
-Video coming soon...
-
 <YouTube
     title="Canvas Pie Charts"
     url="https://www.youtube.com/embed/ihe5yeEAeHg"
