@@ -114,8 +114,11 @@ Video coming soon...
     url="https://www.youtube.com/embed/"
 />
 
-## Creating Pie Charts on Canvas
+## Creating Pie Charts and Bar Graphs on Canvas
 
+Creating any kind of chart on the Canvas is just a matter of drawing lines, rectangles, circles, or other shapes. These things are pretty basic. The only challenge is really looping through the data in a logical way and doing the Mathematical operations in the right order to draw the shapes.
+
+Sometimes it is the raw data from the XML or JSON that you use. Sometimes you will have to calculate a total and / or an average. Then the points or shapes that you are plotting will be a percentage of that value.
 
 Video coming soon...
 
@@ -124,9 +127,7 @@ Video coming soon...
     url="https://www.youtube.com/embed/"
 />
 
-## Creating Bar Graphs on Canvas
-
-Coming soon...
+Video coming soon...
 
 <YouTube
     title="Canvas Bar Graphs"
@@ -135,7 +136,7 @@ Coming soon...
 
 ## Rotating the Canvas or Elements on the Surface
 
-Coming soon...
+Video coming soon...
 
 <YouTube
     title="Canvas Bar Graphs"
