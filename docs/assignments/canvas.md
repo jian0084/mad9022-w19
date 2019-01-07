@@ -4,6 +4,8 @@
 
 You will be creating a webpage that has two canvas elements. These two elements will be displaying InfoGraphics that represent the contents of a JSON file that you create.
 
+Make the Canvas elements responsive so that they are always centered and occupying 90% of the width of the screen, up to a maximum width of 1000px. Make sure to maintain an aspect ratio of 4:3.
+
 The first canvas element should display a Pie Chart of the data.
 
 The second canvas element should display the data as a line graph, a bar chart, objects with relative size, or some other way you want to display it. Be creative.
