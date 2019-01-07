@@ -120,12 +120,16 @@ Creating any kind of chart on the Canvas is just a matter of drawing lines, rect
 
 Sometimes it is the raw data from the XML or JSON that you use. Sometimes you will have to calculate a total and / or an average. Then the points or shapes that you are plotting will be a percentage of that value.
 
+#### Canvas Pie Charts
+
 Video coming soon...
 
 <YouTube
     title="Canvas Pie Charts"
     url="https://www.youtube.com/embed/"
 />
+
+#### Canvas Bar Graphs
 
 Video coming soon...
 
@@ -139,7 +143,7 @@ Video coming soon...
 Video coming soon...
 
 <YouTube
-    title="Canvas Bar Graphs"
+    title="Canvas Rotation"
     url="https://www.youtube.com/embed/"
 />
 
