@@ -126,8 +126,9 @@ Video coming soon...
 
 <YouTube
     title="Canvas Pie Charts"
-    url="https://www.youtube.com/embed/"
+    url="https://www.youtube.com/embed/ihe5yeEAeHg"
 />
+
 
 #### Canvas Bar Graphs
 
