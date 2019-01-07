@@ -33,11 +33,11 @@
     7. Objects
     8. Loops
     9. CSS
-    10. CSS
+    10. Promises
     11. fetch and AJAX
-    12. Promises
-    13. ES6 Classes
-    14. 
+    12. ES6 Features
+    13. ES6 Features
+    14. ---
 
 
 ## Assignments <Badge text="20% of Final Grade"/>
