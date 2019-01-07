@@ -54,3 +54,9 @@ yarn add cowsay@1.4.0
 ```
 
 [Full Reference for Yarn CLI Commands](https://yarnpkg.com/en/docs/cli/)
+
+<YouTube 
+    title="How to use Yarn"
+    url="https://www.youtube.com/embed/223uxFCu74s"
+/>
+
