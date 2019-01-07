@@ -84,7 +84,7 @@ We will be using Node and NPM for many tasks this semester, not least of which w
 
 You will get more instruction on Node and NPM in MAD9124.
 
-## Yarn
+## Yarn Package Manager
 
 There is an alternative to NPM called Yarn. Yarn can run alongside NPM without any problems. Both are package managers. Both will create their own .lock file to keep track of the currently used versions of the installed module dependencies.
 
