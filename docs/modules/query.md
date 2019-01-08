@@ -15,6 +15,10 @@
 
 ## Week 2 - Canvas
 
+1. 
+2. 
+
+
 ## Week 3 - Arrays
 
 ## Week 4 - DOM
