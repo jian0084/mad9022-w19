@@ -15,11 +15,23 @@
 
 ## Week 2 - Canvas
 
-1. 
-2. 
+1. What are the two types of context that you can use with the Canvas element? [2d, 3d]
+2. What is the property to set the color of the lines when drawing on Canvas? [strokeStyle]
+3. What is the property for setting the background area of a shape? [fillStyle]
+4. What is the method to move the starting point for a line or shape? [moveTo()]
+5. What is the method to draw a line from the current position to a new point? [lineTo()]
+6. Name two of the methods to draw part of a circle? [arc(), arcTo(), bezierCurveTo(), quadtraticCurveto()]
+7. What is the method to grab all the pixel data from the Canvas? [getImageData()]
+8. What is the name of the property inside the object returned from `getImageData` which holds the array of pixel data? [data]
+9. If you loop through the array of image data and change the values, what is the method to put it back on the Canvas? [putImageData()]
+10. What are the two methods for drawing a square? [fillRect(), strokeRect()]
+11. What is the method for placing an image on the Canvas? [drawImage()]
+12. What are the two methods for writing some text on the Canvas? [fillText(), strokeText()]
 
 
 ## Week 3 - Arrays
+
+1. 
 
 ## Week 4 - DOM
 
