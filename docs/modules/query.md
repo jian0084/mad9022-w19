@@ -4,7 +4,7 @@
 
 1. What is the command to install cordova globally on your computer? [npm i -g cordova][yarn global add cordova]
 2. What is the command to create a new cordova project? [cordova create folder ca.example.app appname]
-3. What is the command to add the android platform to a cordova project? [cordova platform add android]
+3. What is the command to add the android platform to a cordova project? [cordova platform add android] 
 4. What is the name of the file that holds all the project settings? [config.xml]
 5. What is the alternative file for holding project settings? [package.json]
 6. What is the IDE application that we use to launch the Android Emulator? [Android Studio]
@@ -31,9 +31,22 @@
 
 ## Week 3 - Arrays
 
-1. 
+1. What is an example of a method that can be used to combine two arrays? [concat, push, unshift]
+2. What is the return value from an Array `forEach()` method? [undefined]
+3. What is the return value from an Array `map()` method? [a new Array]
+4. What is the return value from an Array `filter()` method? [a new Array]
+5. In the function that you pass to the `forEach` `map` or `filter` methods, what are the three parameters that you are given? [item, index, array]
+6. What are the two parameters that you pass to the Array `reduce` method? [function, accumulator]
+7. If you wanted to put the elements of an array in alphabetical order, what is the Array method you should call? [sort]
+8. If you want to put an array of strings that each start with a number, in numerical order, what would you do differently? [custom sort function(a, b){}]
+9. What is the difference between a method that says it `edits in place` vs one that says it returns a `shallow copy` [change the original array, creates a new copy]
+10. What is a shallow copy vs a deep copy?
+11. What is a method that could be used to actually remove elements from the middle of an array? [splice]
+12. What are the four methods for adding or removing elements from the beginning or end of an Array? [pop, push, shift, unshift]
 
 ## Week 4 - DOM
+
+1. 
 
 ## Week 5 - DOM
 
