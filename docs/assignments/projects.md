@@ -1,6 +1,6 @@
 # Cordova Projects
 
-The minimum requirements for any project submission are:
+The **minimum requirements** for ALL project submission are:
 
     - The App has a unique launcher icon CREATED BY YOU
     - The App has a unique splashscreen image CREATED BY YOU
@@ -17,25 +17,31 @@ All submissions must be demonstrated and uploaded to GitHub a maximum of 7 days 
 
 ## Project 1
 
+- Cordova Android App built on Windows
 - Details coming soon
 
 ## Project 2
 
+- Cordova Android App built on OSX
 - Details coming soon
 
 ## Project 3
 
+- Cordova iOS App
 - Details coming soon
 
 ## Project 4
 
+- Cordova iOS App
 - Details coming soon
 
 ## Project 5
 
+- Cordova App for platform of your choice
 - Details coming soon
 
 ## Project 6
 
+- Cordova App that runs on BOTH iOS and Android
 - Details coming soon
 
