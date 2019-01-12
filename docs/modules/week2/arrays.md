@@ -74,6 +74,43 @@ The cool thing about `map()`, `filter()`, and `reduce()` is that they can be cha
     url="https://www.youtube.com/embed/WnP_ssWDBWU"
 />
 
+There are other ways to loop as well. These can also be used with Arrays.
+
+#### for loops
+
+<Youtube
+    title="for loops"
+    url="https://www.youtube.com/embed/CidzYW-8I7s"
+/>
+
+#### for...in loops
+
+<Youtube
+    title="for...in loops"
+    url="https://www.youtube.com/embed/prl73KRkB34"
+/>
+
+#### for...of loops
+
+<Youtube
+    title="for...of loops"
+    url="https://www.youtube.com/embed/wc4jMuumqLM"
+/>
+
+and to understand for...of loops better you need to understand the difference between iterable and enumerable.
+
+<YouTube
+    title="Iterable vs Enumerable"
+    url="https://www.youtube.com/embed/HZjvoftRvGE"
+/>
+
+#### Nested Loops
+
+<Youtube
+    title="Nested Loops"
+    url="https://www.youtube.com/embed/AqgVLYpBWG8"
+/>
+
 ## Editing an Array
 
 There are a number of ways that we can change an Array.
@@ -90,11 +127,12 @@ There are a number of ways that we can change an Array.
 
 <YouTube 
     title="Split and Join"
-    url="https://www.youtube.com/embed/159EAISAxwg"
+    url="https://www.youtube.com/embed/ub9s1TPyZ00"
 />
 
-There are lots of other Array methods that you can use too.
+There are lots of other Array methods that you can use too - `from()`, `every()`, `some()`, `includes()`, and more.
 
 [YouTube Array tutorial Playlist](https://www.youtube.com/watch?v=arIhhRd1RPc&list=PLyuRouwmQCjnupe_ohQgFvwFZF8dycwK8&index=1)
 
 [MDN Array Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/from)
+In the left hand menu you will find links for each of the Array methods.
