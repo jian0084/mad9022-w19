@@ -86,14 +86,14 @@ There are other ways to loop as well. These can also be used with Arrays.
 #### for...in loops
 
 <Youtube
-    title="for...in loops"
+    title="for in loops"
     url="https://www.youtube.com/embed/prl73KRkB34"
 />
 
 #### for...of loops
 
 <Youtube
-    title="for...of loops"
+    title="for of loops"
     url="https://www.youtube.com/embed/wc4jMuumqLM"
 />
 
