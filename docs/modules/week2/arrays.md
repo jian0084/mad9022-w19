@@ -69,7 +69,7 @@ If you want to calculate a single value, like an average or a sum, based on the 
 
 The cool thing about `map()`, `filter()`, and `reduce()` is that they can be chained together to simplify your code. The reason we can chain them together is that they all return a copy of the Array. 
 
-<Youtube
+<YouTube
     title="Chaining Array Methods"
     url="https://www.youtube.com/embed/WnP_ssWDBWU"
 />
@@ -78,21 +78,21 @@ There are other ways to loop as well. These can also be used with Arrays.
 
 #### for loops
 
-<Youtube
+<YouTube
     title="for loops"
     url="https://www.youtube.com/embed/CidzYW-8I7s"
 />
 
 #### for...in loops
 
-<Youtube
+<YouTube
     title="for in loops"
     url="https://www.youtube.com/embed/prl73KRkB34"
 />
 
 #### for...of loops
 
-<Youtube
+<YouTube
     title="for of loops"
     url="https://www.youtube.com/embed/wc4jMuumqLM"
 />
@@ -106,7 +106,7 @@ and to understand for...of loops better you need to understand the difference be
 
 #### Nested Loops
 
-<Youtube
+<YouTube
     title="Nested Loops"
     url="https://www.youtube.com/embed/AqgVLYpBWG8"
 />
