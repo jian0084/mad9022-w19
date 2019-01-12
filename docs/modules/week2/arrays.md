@@ -113,7 +113,7 @@ and to understand for...of loops better you need to understand the difference be
 
 ## Editing an Array
 
-There are a number of ways that we can change an Array.
+There are a number of ways that we can change the contents of an Array.
 
 `pop()` and `push()` will remove and add items from the end of the Array.
 
