@@ -62,6 +62,14 @@
 - **Everyone must have a GitHub username that matches their Algonquin Username.**
 - The URL for each practice exercise's starter file(s) will be released in class at the start of the exercise.
 
+The Exercises will take place during:
+
+- Week 3
+- Week 5
+- Week 7
+- Week 9
+- Week 12
+
 ## Practice Exercises
 
 - These are exercises that you can do at any time to practice and improve your JavaScript skills. 
