@@ -23,19 +23,56 @@ arr.sort( (a, b) => {
 
 Note that the original array will be modified.
 
+#### Array Sorts
+
+<YouTube 
+    title="Manipulating and Sorting Arrays"
+    url="https://www.youtube.com/embed/C3EPTuXKRw0"
+/>
+
+#### Custom Sorting
+
+<YouTube 
+    title="Custom Sorting Arrays"
+    url="https://www.youtube.com/embed/zVevl-K-m7Y"
+/>
+
 ## Looping
 
 If you want to loop through an Array and do something with each item then we would use the `forEach()` method.
 
+<YouTube 
+    title="forEach Method"
+    url="https://www.youtube.com/embed/159EAISAxwg"
+/>
 
 If you want to create a new Array which is the same length as the original Array, and based in some way on the values of the original array, then we would use the `map()` method.
 
+<YouTube 
+    title="map Method"
+    url="https://www.youtube.com/embed/hfYa4ugeyuc"
+/>
 
 If you want to create a new Array which holds a selected group of values from the original Array which all meet some common requirement, then we use the `filter()` method.
 
+<YouTube 
+    title="filter Method"
+    url="https://www.youtube.com/embed/WrB_--bVbbs"
+/>
 
 If you want to calculate a single value, like an average or a sum, based on the items in the original Array, then we use the `reduce()` method.
 
+<YouTube 
+    title="reduce Method"
+    url="https://www.youtube.com/embed/6_XzV25rkcE"
+/>
+
+The cool thing about `map()`, `filter()`, and `reduce()` is that they can be chained together to simplify your code. The reason we can chain them together is that they all return a copy of the Array. 
+
+<Youtube
+    title="Chaining Array Methods"
+    url="https://www.youtube.com/embed/WnP_ssWDBWU"
+/>
 
 ## Editing an Array
 
@@ -45,9 +82,19 @@ There are a number of ways that we can change an Array.
 
 `shift()` and `unshift()` will remove and add items from the start of the Array.
 
-`slice()`
+`slice()` will extract a range of elements from an Array. It returns the elements that you slice out and leaves the original Array the way it was.
 
-`splice()`
+`splice()` will alter the original Array by removing a range of length 0 or more and optionally replacing it with one or more new elements.
 
 `join()` will combine all the items in an Array and turn them into a single String.
 
+<YouTube 
+    title="Split and Join"
+    url="https://www.youtube.com/embed/159EAISAxwg"
+/>
+
+There are lots of other Array methods that you can use too.
+
+[YouTube Array tutorial Playlist](https://www.youtube.com/watch?v=arIhhRd1RPc&list=PLyuRouwmQCjnupe_ohQgFvwFZF8dycwK8&index=1)
+
+[MDN Array Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/from)

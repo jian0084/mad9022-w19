@@ -1,4 +1,4 @@
-# MAD9022 - Module 2
+# MAD9022 - Canvas, Trigonometry, and Arrays
 
 ## HTML5 Canvas
 
