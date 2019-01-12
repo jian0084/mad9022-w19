@@ -107,11 +107,9 @@ Watch this video for more details and options.
 
 Video elements can be used as a source for displaying images on the canvas element. The difference with video is that you have to continually grab frames from the video and put them onto the Canvas. You have to write the script which will replace the contents of the canvas with the next frame. There is no automatic way to update the canvas element with the next video frame.
 
-Video coming soon...
-
 <YouTube
     title="Canvas Video Playback"
-    url="https://www.youtube.com/embed/"
+    url="https://www.youtube.com/embed/_2SvAepbCSg"
 />
 
 ## Creating Pie Charts and Bar Graphs on Canvas
@@ -127,15 +125,6 @@ Sometimes it is the raw data from the XML or JSON that you use. Sometimes you wi
     url="https://www.youtube.com/embed/ihe5yeEAeHg"
 />
 
-
-#### Canvas Bar Graphs
-
-Video coming soon...
-
-<YouTube
-    title="Canvas Bar Graphs"
-    url="https://www.youtube.com/embed/"
-/>
 
 ## Rotating the Canvas or Elements on the Surface
 
@@ -155,11 +144,11 @@ context.closePath();
 context.restore();
 ```
 
-Video coming soon...
+This video covers the concepts of rotate, scale, and translate as well as the ability to create save points on the context to create an apply more complex combinations of elements on the Canvas.
 
 <YouTube
-    title="Canvas Rotation"
-    url="https://www.youtube.com/embed/"
+    title="Canvas Transformations"
+    url="https://www.youtube.com/embed/5vxygxshTQ4"
 />
 
 ## Additional Resources
