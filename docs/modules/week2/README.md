@@ -1,4 +1,4 @@
-# MAD9022 - Canvas, Trigonometry, and Arrays
+# Canvas, Trigonometry, & Arrays
 
 ## HTML5 Canvas
 

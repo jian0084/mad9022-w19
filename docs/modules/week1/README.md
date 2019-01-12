@@ -1,4 +1,4 @@
-# MAD9022 - Intro & HTML Canvas
+# Intro & HTML Canvas
 
 ## GitHub Usernames
 
