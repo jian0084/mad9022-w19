@@ -11,46 +11,46 @@ Here is a list of books that every web developer should have.
             grid-gap: 1.5rem;
             margin-bottom: 2rem;">
 
-![Learning to blame the user](../orly/blaming.jpg)
+<img alt="Learning to blame the user" src="../orly/blaming.jpg" style="max-width:100%" />
 
-![Opening 1000000 browser tabs](../orly/browsertabs.jpg)
+<img alt="Opening 1000000 browser tabs" src="../orly/browsertabs.jpg" style="max-width:100%" />
 
-![Changing stuff until it works](../orly/changingstuff.jpg)
+<img alt="Changing stuff until it works" src="../orly/changingstuff.jpg" style="max-width:100%" />
 
-![Turning coffee into code](../orly/coffee.jpg)
+<img alt="Turning coffee into code" src="../orly/coffee.jpg" style="max-width:100%" />
 
-![Coding by copying and pasting](../orly/copypaste.jpg)
+<img alt="Coding by copying and pasting" src="../orly/copypaste.jpg" style="max-width:100%" />
 
-![Needless dependencies](../orly/dependecies.jpg)
+<img alt="Needless dependencies" src="../orly/dependecies.jpg" style="max-width:100%" />
 
-![Coding drunk](../orly/drunk.jpg)
+<img alt="Coding drunk" src="../orly/drunk.jpg" style="max-width:100%" />
 
-![Git Commit message that dont matter](../orly/gitcommit.jpg)
+<img alt="Git Commit message that dont matter" src="../orly/gitcommit.jpg" style="max-width:100%" />
 
-![Googling the solution](../orly/googling.jpg)
+<img alt="Googling the solution" src="../orly/googling.jpg" style="max-width:100%" />
 
-![It depends](../orly/itdepends.jpg)
+<img alt="It depends" src="../orly/itdepends.jpg" style="max-width:100%" />
 
-![Millenials](../orly/millenials.png)
+<img alt="Millenials" src="../orly/millenials.png" style="max-width:100%" />
 
-![code that nobody can read](../orly/nobodycanread.jpg)
+<img alt="code that nobody can read" src="../orly/nobodycanread.jpg" style="max-width:100%" />
 
-![Regex by trial and error](../orly/regex.jpg)
+<img alt="Regex by trial and error" src="../orly/regex.jpg" style="max-width:100%" />
 
-![rewriting things until it works](../orly/rewriting.jpg)
+<img alt="rewriting things until it works" src="../orly/rewriting.jpg" style="max-width:100%" />
 
-![rewriting things until it works](../orly/security.jpg)
+<img alt="rewriting things until it works" src="../orly/security.jpg" style="max-width:100%" />
 
-![trying stuff until it works](../orly/tryingstuff.jpg)
+<img alt="trying stuff until it works" src="../orly/tryingstuff.jpg" style="max-width:100%" />
 
-![unittests](../orly/unittests.jpg)
+<img alt="unittests" src="../orly/unittests.jpg" style="max-width:100%" />
 
-![coding on the weekend](../orly/weekend.jpg)
+<img alt="coding on the weekend" src="../orly/weekend.jpg" style="max-width:100%" />
 
-![Whiteboard interviews](../orly/whiteboard.jpg)
+<img alt="Whiteboard interviews" src="../orly/whiteboard.jpg" style="max-width:100%" />
 
-![Workarounds](../orly/workarounds.jpg)
+<img alt="Workarounds" src="../orly/workarounds.jpg" style="max-width:100%" />
 
-![Zindex 1000000](../orly/zindex.jpg)
+<img alt="Zindex 1000000" src="../orly/zindex.jpg" style="max-width:100%" />
 
 </section>
