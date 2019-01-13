@@ -3,9 +3,9 @@
 Here is a list of books that every web developer should have.
 
 <section style="display: grid; 
-            grid-template-columns: repeat( auto-fit, minmax(160px, 1fr) );
-  grid-template-rows: 130px;
-  grid-auto-rows: 130px;
+            grid-template-columns: repeat( auto-fit, minmax(240px, 1fr) );
+  grid-template-rows: 200px;
+  grid-auto-rows: 200px;
   justify-items: center;
   align-items: center;
   grid-gap: 1.5rem;
