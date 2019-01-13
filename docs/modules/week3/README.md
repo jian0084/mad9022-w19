@@ -38,6 +38,11 @@ If you want to change how OSX displays hidden files in Finder.
 2. In Terminal, paste the following: `defaults write com.apple.finder AppleShowAllFiles YES` 
 3. Press return.
 4. Hold the `Option/alt` key, then right click on the Finder icon in the dock and click Relaunch.
+
+<YouTube
+    title="Show Hidden Files"
+    url="https://www.youtube.com/embed/Gky4lD8yNJE"
+/>
  
 ## Useful Textbooks
 
