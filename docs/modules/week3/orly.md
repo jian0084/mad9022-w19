@@ -2,13 +2,11 @@
 
 Here is a list of books that every web developer should have.
 
-<section style="display: grid; 
-            grid-template-columns: repeat( auto-fit, minmax(200px, 1fr) );
-            grid-template-rows: 300px;
-            grid-auto-rows: 300px;
-            justify-items: center;
-            align-items: center;
-            grid-gap: 1.5rem;
+<section style="display: flex; 
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: flex-start;
+            align-items: flex-start;
             margin-bottom: 2rem;">
 
 <img alt="Learning to blame the user" src="../orly/blaming.jpg" style="width: 100%; height: auto; max-height: 280px; max-width: 180px; align-self: start; margin:0.5rem; outline:1px solid #333" />
