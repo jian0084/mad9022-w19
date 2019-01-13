@@ -28,8 +28,24 @@ To be able to develop Android applications there are a number of things that you
 
     ```
     ANDROID_HOME  - the location of the Android SDK folder
-    STUDIO_JDK    - The location of the JDK to use with Android
+    STUDIO_JDK    - The location of the JDK to use with Android. Can also be called JAVA_HOME.
+    GRADLE_HOME   - The location of the current Gradle version folder
     ```
+
+    The current version of Gradle on OSX would be in a location like this `"/Applications/Android Studio.app/Contents/gradle/gradle-4.4"`. We put double quotes around it because there is a space in the path.
+
+    In the `PATH` variable we need to include the locations for these folders. They are all inside of ANDROID_HOME, except for `bin` which is inside JAVA_HOME / STUDIO_SDK
+
+    ```
+    bin  - inside JAVA_HOME
+    bin  - inside GRADLE_HOME
+    emulator
+    tools/bin
+    tools
+    platform-tools
+    build-tools  - this was in older config versions.
+    ```
+
 
 5. AVDs - Android Virtual Devices are the different version files for each Emulator that you would run. An AVD contains things like screen size, memory, Android API version, and device capabilities. When the emulator runs it needs one of these files to know how it is supposed to behave. Think of them as the Operating System for your emulator.
     - You can create AVDs from the CLI but it is much easier to do through Android Studio.
