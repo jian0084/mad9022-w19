@@ -36,14 +36,31 @@ To be able to develop Android applications there are a number of things that you
     - Tap 7 times on the `build number` to unlock development features.
 
 
+## OSX Terminal
 
+Here is a tutorial on some of the basic Terminal Commands for OSX. Many, but not all of them, will be the same on Windows.
 
+<YouTube
+    title="OSX Terminal Basics"
+    url="https://www.youtube.com/embed/fO8ontWnlwk"
+/>
 
+Some common commands that are different on Windows:
 
+**clear screen**
 
+- OSX: clear
+- Win: cls
 
+**current directory**
 
+- OSX: pwd
+- Win: cwd
 
+**directory listing**
+
+- OSX: ls
+- Win: dir
 
 ## Windows
 
