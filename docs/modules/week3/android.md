@@ -126,3 +126,11 @@ export PATH="${PATH}:someNewValue"
 ```
 
 Don't forget that you can always edit the `.bash_profile` file inside your `~` folder.
+
+In OSX you can add this line to your `.bash_profile`
+
+```
+export JAVA_HOME=$(/usr/libexec/java_home)
+```
+
+This will call a method to locate where Java is installed. This way, as you update the JDK you will have an updated path.  This only works if you only have the one version of the JDK installed on your computer. If you are working with multiple targets for the JDK this will not work.
