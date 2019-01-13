@@ -8,7 +8,7 @@ Here is a list of books that every web developer should have.
             justify-content: flex-start;
             align-items: flex-start;
             margin-bottom: 2rem;
-            max-width: 80%;">
+            max-width: 600px;">
 
 <img alt="Learning to blame the user" src="../orly/blaming.jpg" style="flex-basis:30%; flex-grow:1; flex-shrink:0; height: auto; margin:0.5rem; outline:1px solid #333" />
 
