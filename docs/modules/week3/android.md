@@ -24,6 +24,13 @@ To be able to develop Android applications there are a number of things that you
         url="https://www.youtube.com/embed/3XjkaN8psp0"
     />
 
+    The variables we should create are:
+
+    ```
+    ANDROID_HOME  - the location of the Android SDK folder
+    STUDIO_JDK    - The location of the JDK to use with Android
+    ```
+
 5. AVDs - Android Virtual Devices are the different version files for each Emulator that you would run. An AVD contains things like screen size, memory, Android API version, and device capabilities. When the emulator runs it needs one of these files to know how it is supposed to behave. Think of them as the Operating System for your emulator.
     - You can create AVDs from the CLI but it is much easier to do through Android Studio.
     - This video should help
@@ -73,5 +80,33 @@ When updating Environmental Variables on Windows you need to go to the system se
     url="https://www.youtube.com/embed/nQ498PINsws"
 />
 
+If you ever want to add a temporary ENV variable on the CLI that will only exist as long as the CLI is open then type the following. Use double quotation marks if there is a space in the value.
+
+```
+set MYVAR="some Value"
+```
+
+To reference existing values the old variables get percentage signs around them and then a semi-colon between the variable and the new value.
+
+```
+set MYVAR=%MYVAR%;someNewValue
+```
+
+
 ## OSX Android Config
 
+See the notes and video above to managing the ENV variables for OSX.
+
+If you ever want to add a temporary ENV variable on the CLI that will only exist as long as the CLI is open then type the following. Use quotation marks if there is a space in the value.
+
+```
+export MYVAR="some Value"
+```
+
+To update the PATH variable and add something to the end of it then we use a syntax that puts the old PATH variable at the start of the new value. Put a colon between the old PATH and the new value.
+
+```
+export PATH="${PATH}:someNewValue"
+```
+
+Don't forget that you can always edit the `.bash_profile` file inside your `~` folder.
