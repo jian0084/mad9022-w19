@@ -3,13 +3,13 @@
 Here is a list of books that every web developer should have.
 
 <section style="display: grid; 
-            grid-template-columns: repeat( auto-fit, minmax(240px, 1fr) );
-  grid-template-rows: 200px;
-  grid-auto-rows: 200px;
-  justify-items: center;
-  align-items: center;
-  grid-gap: 1.5rem;
-  margin-bottom: 2rem;">
+            grid-template-columns: repeat( auto-fit, minmax(200px, 1fr) );
+            grid-template-rows: 300px;
+            grid-auto-rows: 300px;
+            justify-items: center;
+            align-items: center;
+            grid-gap: 1.5rem;
+            margin-bottom: 2rem;">
 
 ![Learning to blame the user](../orly/blaming.jpg)
 
