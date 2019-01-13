@@ -1,4 +1,4 @@
-# Canvas, Trigonometry, & Arrays
+# 2. Canvas, Trigonometry, & Arrays
 
 ## HTML5 Canvas
 

@@ -1,4 +1,4 @@
-# Intro & HTML Canvas
+# 1. Intro & HTML Canvas
 
 ## GitHub Usernames
 

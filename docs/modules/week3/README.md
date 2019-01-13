@@ -1,4 +1,4 @@
-# Cordova Configuration
+# 3. Cordova Configuration
 
 ## Installing Cordova
 
