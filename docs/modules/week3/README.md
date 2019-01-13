@@ -30,3 +30,15 @@ Creating Android Applications requires slightly different approaches on Windows 
 [Android Windows Setup Information](./android.md)
 
 
+## OSX Show Hidden Files in Finder
+
+If you want to change how OSX displays hidden files in Finder.
+
+1. Open Terminal found in Finder > Applications > Utilities.
+2. In Terminal, paste the following: `defaults write com.apple.finder AppleShowAllFiles YES` 
+3. Press return.
+4. Hold the `Option/alt` key, then right click on the Finder icon in the dock and click Relaunch.
+ 
+## Useful Textbooks
+
+Here is a [collection of books](./orly.md) that every programmer should have.
