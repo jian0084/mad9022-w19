@@ -11,3 +11,5 @@ Here is the [official documentation for Cordova](https://cordova.apache.org/docs
 
 ## Config.xml File
 
+## Storing Data
+

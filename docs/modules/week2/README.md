@@ -18,3 +18,17 @@ There are many methods that belong to Array objects. Since JSON is a major sourc
 
 [Array Methods and Properties](./arrays.md)
 
+## Starting Temporary Web Servers
+
+In Brackets we had the `Live Preview` feature built in. It worked well for testing webpages that needed to access elements using `CORS` or `fetch()`.
+
+There is an extension for `VS CODE` called `Live Server` v5.3.1 by Ritwick Dei, which you can install to do the same as live preview.
+
+However, you can also use an NPM package to run a temporary web server on one or more folders. This will let you do things like run two different folders as if they are two different websites.
+
+<YouTube
+    title="Temporary web servers"
+    url="https://www.youtube.com/embed/hvax_hqMces"
+/>
+
+This video is using the [http-server npm package](https://www.npmjs.com/package/http-server).
