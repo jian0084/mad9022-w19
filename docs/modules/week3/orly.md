@@ -11,46 +11,46 @@ Here is a list of books that every web developer should have.
             grid-gap: 1.5rem;
             margin-bottom: 2rem;">
 
-<img alt="Learning to blame the user" src="../orly/blaming.jpg" style="max-width:100%" />
+<img alt="Learning to blame the user" src="../orly/blaming.jpg" style="width: 100%; height: auto; max-height: 280px; max-width: 180px; align-self: start; " />
 
-<img alt="Opening 1000000 browser tabs" src="../orly/browsertabs.jpg" style="max-width:100%" />
+<img alt="Opening 1000000 browser tabs" src="../orly/browsertabs.jpg" style="width: 100%; height: auto; max-height: 280px; max-width: 180px; align-self: start; " />
 
-<img alt="Changing stuff until it works" src="../orly/changingstuff.jpg" style="max-width:100%" />
+<img alt="Changing stuff until it works" src="../orly/changingstuff.jpg" style="width: 100%; height: auto; max-height: 280px; max-width: 180px; align-self: start; " />
 
-<img alt="Turning coffee into code" src="../orly/coffee.jpg" style="max-width:100%" />
+<img alt="Turning coffee into code" src="../orly/coffee.jpg" style="width: 100%; height: auto; max-height: 280px; max-width: 180px; align-self: start; " />
 
-<img alt="Coding by copying and pasting" src="../orly/copypaste.jpg" style="max-width:100%" />
+<img alt="Coding by copying and pasting" src="../orly/copypaste.jpg" style="width: 100%; height: auto; max-height: 280px; max-width: 180px; align-self: start; " />
 
-<img alt="Needless dependencies" src="../orly/dependecies.jpg" style="max-width:100%" />
+<img alt="Needless dependencies" src="../orly/dependecies.jpg" style="width: 100%; height: auto; max-height: 280px; max-width: 180px; align-self: start; " />
 
-<img alt="Coding drunk" src="../orly/drunk.jpg" style="max-width:100%" />
+<img alt="Coding drunk" src="../orly/drunk.jpg" style="width: 100%; height: auto; max-height: 280px; max-width: 180px; align-self: start; " />
 
-<img alt="Git Commit message that dont matter" src="../orly/gitcommit.jpg" style="max-width:100%" />
+<img alt="Git Commit message that dont matter" src="../orly/gitcommit.jpg" style="width: 100%; height: auto; max-height: 280px; max-width: 180px; align-self: start; " />
 
-<img alt="Googling the solution" src="../orly/googling.jpg" style="max-width:100%" />
+<img alt="Googling the solution" src="../orly/googling.jpg" style="width: 100%; height: auto; max-height: 280px; max-width: 180px; align-self: start; " />
 
-<img alt="It depends" src="../orly/itdepends.jpg" style="max-width:100%" />
+<img alt="It depends" src="../orly/itdepends.jpg" style="width: 100%; height: auto; max-height: 280px; max-width: 180px; align-self: start; " />
 
-<img alt="Millenials" src="../orly/millenials.png" style="max-width:100%" />
+<img alt="Millenials" src="../orly/millenials.png" style="width: 100%; height: auto; max-height: 280px; max-width: 180px; align-self: start; " />
 
-<img alt="code that nobody can read" src="../orly/nobodycanread.jpg" style="max-width:100%" />
+<img alt="code that nobody can read" src="../orly/nobodycanread.jpg" style="width: 100%; height: auto; max-height: 280px; max-width: 180px; align-self: start; " />
 
-<img alt="Regex by trial and error" src="../orly/regex.jpg" style="max-width:100%" />
+<img alt="Regex by trial and error" src="../orly/regex.jpg" style="width: 100%; height: auto; max-height: 280px; max-width: 180px; align-self: start; " />
 
-<img alt="rewriting things until it works" src="../orly/rewriting.jpg" style="max-width:100%" />
+<img alt="rewriting things until it works" src="../orly/rewriting.jpg" style="width: 100%; height: auto; max-height: 280px; max-width: 180px; align-self: start; " />
 
-<img alt="rewriting things until it works" src="../orly/security.jpg" style="max-width:100%" />
+<img alt="rewriting things until it works" src="../orly/security.jpg" style="width: 100%; height: auto; max-height: 280px; max-width: 180px; align-self: start; " />
 
-<img alt="trying stuff until it works" src="../orly/tryingstuff.jpg" style="max-width:100%" />
+<img alt="trying stuff until it works" src="../orly/tryingstuff.jpg" style="width: 100%; height: auto; max-height: 280px; max-width: 180px; align-self: start; " />
 
-<img alt="unittests" src="../orly/unittests.jpg" style="max-width:100%" />
+<img alt="unittests" src="../orly/unittests.jpg" style="width: 100%; height: auto; max-height: 280px; max-width: 180px; align-self: start; " />
 
-<img alt="coding on the weekend" src="../orly/weekend.jpg" style="max-width:100%" />
+<img alt="coding on the weekend" src="../orly/weekend.jpg" style="width: 100%; height: auto; max-height: 280px; max-width: 180px; align-self: start; " />
 
-<img alt="Whiteboard interviews" src="../orly/whiteboard.jpg" style="max-width:100%" />
+<img alt="Whiteboard interviews" src="../orly/whiteboard.jpg" style="width: 100%; height: auto; max-height: 280px; max-width: 180px; align-self: start; " />
 
-<img alt="Workarounds" src="../orly/workarounds.jpg" style="max-width:100%" />
+<img alt="Workarounds" src="../orly/workarounds.jpg" style="width: 100%; height: auto; max-height: 280px; max-width: 180px; align-self: start; " />
 
-<img alt="Zindex 1000000" src="../orly/zindex.jpg" style="max-width:100%" />
+<img alt="Zindex 1000000" src="../orly/zindex.jpg" style="width: 100%; height: auto; max-height: 280px; max-width: 180px; align-self: start; " />
 
 </section>
