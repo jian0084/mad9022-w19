@@ -6,6 +6,7 @@ To be able to develop Android applications there are a number of things that you
 
 1. Android Studio IDE - when you install this, you will get the basic Android SDK
     - To download Android Studio visit [this site](https://developer.android.com/studio/?gclid=CjwKCAiA4OvhBRAjEiwAU2FoJbrHs3natxQUwCehaStAbkhuA7z_gCk-v32LuvGidCOsM9ELY0xlehoCv1oQAvD_BwE)
+    - Android Studio [Official Documentation](https://developer.android.com/studio/intro/)
 
 2. JDK - Java Developer Kit. This is **NOT** the same thing as the JRE (Java RunTime Environment). You need the JDK to compile your Android apps. For Cordova we need version 8.x.x of the JDK.
     - To download the JDK [find your OS on this page](https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
@@ -15,6 +16,7 @@ To be able to develop Android applications there are a number of things that you
     - To Update the APIs and Tools for the Android SDK you will need open Android Studio.
 
 4. Updating your Environmental Variables to indicate where the JDK and SDK are installed as well as the location for the various tools for the SDK.
+    - [Official Reference for Environmental Variables](https://developer.android.com/studio/command-line/variables)
     - Here is a video that will help you update your Environmental Variables on OSX
 
     <YouTube
@@ -62,6 +64,14 @@ Some common commands that are different on Windows:
 - OSX: ls
 - Win: dir
 
-## Windows
+## Windows Android Config
 
-## OSX
+When updating Environmental Variables on Windows you need to go to the system settings to add new variables or to edit the values in the PATH variable. Depending on which version of Windows you might have to edit a long string for the PATH, with semi-colons between each value, or you might get a list of values that can be edited or removed.
+
+<YouTube
+    title="Cordova ENV variables on Windows"
+    url="https://www.youtube.com/embed/nQ498PINsws"
+/>
+
+## OSX Android Config
+
