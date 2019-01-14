@@ -18,6 +18,13 @@ All submissions must be demonstrated and uploaded to GitHub a maximum of 7 days 
 ## Project 1 - REVIEWR
 
 - REVIEWR : Cordova Android App built on Windows
+
+```
+package name:  ca.edumedia.[your username].reviewr
+github repo:  https://www.github.com/[your username]/reviewr
+App name: [your username]
+```
+
 - Create an Android app with Cordova on Windows that allows the user to take a picture of anything and review it. 
 - The app will be a single page application - a single HTML file with a series of divs where only one of the divs appears at a time.
 
@@ -64,6 +71,13 @@ To get you started, here is the [official reference for the Camera plugin](https
 ## Project 2 - PLAYR
 
 - PLAYR: Cordova audio player Android App built on OSX
+
+```
+package name:  ca.edumedia.[your username].playr
+github repo:  https://www.github.com/[your username]/playr
+App name: [your username]
+```
+
 - This cordova app will be a SPA that shows a scrollable playlist of audio files. 
 - The app will use the HMTL5 Audio player to play the audio, but the player itself will not be visible on the page.
 - The audio controls will be created by you.
@@ -77,6 +91,13 @@ To get you started, here is the [official reference for the Camera plugin](https
 ## Project 3 - REMEMBRALL
 
 - REMEMBRALL: Cordova iOS App
+
+```
+package name:  ca.edumedia.[your username].remembrall
+github repo:  https://www.github.com/[your username]/remembrall
+App name: [your username]
+```
+
 - The app will use `localNotifications` to save the dates of special occassions.
 - The home page will show a list of saved dates with labels.
 - Each date should have a `remove` button.
