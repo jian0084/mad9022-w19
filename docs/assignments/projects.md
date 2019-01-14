@@ -88,6 +88,7 @@ To get you started, here is the [official reference for the Camera plugin](https
 - Remember to adjust the saved date so the reminder appears a week before the actual date.
 - Save the entered dates in localStorage.
 - Sort the list by month and day.
+- When the user taps on the notification, it should open your app.
 
 ## Project 4
 
