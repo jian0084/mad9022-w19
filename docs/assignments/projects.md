@@ -61,15 +61,33 @@ To get you started, here is the [official reference for the Camera plugin](https
     url="https://www.youtube.com/embed/jlL1RuW9Kiw"
 />
 
-## Project 2
+## Project 2 - PLAYR
 
-- Cordova Android App built on OSX
-- Details coming soon
+- PLAYR: Cordova audio player Android App built on OSX
+- This cordova app will be a SPA that shows a scrollable playlist of audio files. 
+- The app will use the HMTL5 Audio player to play the audio, but the player itself will not be visible on the page.
+- The audio controls will be created by you.
+- Each of the entries in the playlist should show a title, an artist, and a thumbnail image that represents the audio file.
+- Nothing plays by default when the app loads. The user will have to top on an item in the list to play.
+- When an audio file reaches the end, the next item in the list should play.
+- Minimum of 4 items in the playlist.
+- User should be able to click on another item to start it playing. This will stop the current one playing.
+- The user should be able to pause the playback, as well as seek to another part of the song.
 
-## Project 3
+## Project 3 - REMEMBRALL
 
-- Cordova iOS App
-- Details coming soon
+- REMEMBRALL: Cordova iOS App
+- The app will use `localNotifications` to save the dates of special occassions.
+- The home page will show a list of saved dates with labels.
+- Each date should have a `remove` button.
+- There will also be an `add` button in the header bar, which will show a new screen where you can enter a new label and date.
+- The app should pop up a `localNotification` one week before the date. You will take the date that is entered and then add the current year, if the date is in the future, or add next year if the date is past, to set the reminder.
+- [localNotification Plugin page](https://github.com/katzer/cordova-plugin-local-notifications)
+- Each notifcation will need to have a unique id. The timestamp of the reminder time is a good choice.
+- You will need to have an icon to use on the notifcation.
+- Remember to adjust the saved date so the reminder appears a week before the actual date.
+- Save the entered dates in localStorage.
+- Sort the list by month and day.
 
 ## Project 4
 
