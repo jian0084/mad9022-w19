@@ -13,3 +13,7 @@ Here is the [official documentation for Cordova](https://cordova.apache.org/docs
 
 ## Storing Data
 
+## Cordova Video Playlist
+
+Here is the playlist of tutorials on Cordova. As more Cordova tutorials are created, they will be added to this playlist.
+
