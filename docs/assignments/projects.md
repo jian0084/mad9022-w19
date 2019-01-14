@@ -90,9 +90,10 @@ To get you started, here is the [official reference for the Camera plugin](https
 - Sort the list by month and day.
 - When the user taps on the notification, it should open your app.
 
-## Project 4
+## Project 4 - FINDR
 
-- Cordova iOS App
+- FINDR: Cordova iOS App
+- Using Geolocation and Google Maps JS
 - Details coming soon
 
 ## Project 5
