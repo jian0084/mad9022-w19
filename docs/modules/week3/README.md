@@ -30,6 +30,41 @@ Creating Android Applications requires slightly different approaches on Windows 
 [Android Windows Setup Information](./android.md)
 
 
+## Single Page Application (SPA)
+
+SPA is a term used to refer to applications that use a single HTTP Request to load one HTML file. Then everything that you need is either:
+
+1. contained in the original HTML file and shown or hidden as needed.
+2. downloaded with `fetch()` and displayed as needed.
+
+<YouTube
+    title="Single Page Applications"
+    url="https://www.youtube.com/embed/wlVmmsMD28w"
+/>
+
+
+## History API
+
+The History API is how you can create an SPA and mimic the browser's natural navigation behaviour and work with the built-in back button to create your own custom URLs for every page without having to have multiple HTML files.
+
+[More History API Info](./history.md)
+
+
+## LocalStorage
+
+`sessionStorage` and `LocalStorage` are part of the HTML5 Web Storage API. They allow you to take any JavaScript Array, Object, String, Boolean, or Number and save them in the Browser as a String equivalent. The `JSON` Object has two methods - `stringify()` and `parse()` to convert the data object to a string or from a string back into the data object.
+
+<YouTube
+    title="Web Storage API"
+    url="https://www.youtube.com/embed/hOCYNdgsUfs"
+/>
+
+<YouTube
+    title="Caching Data with LocalStorage"
+    url="https://www.youtube.com/embed/fe6rCk7a6u0"
+/>
+
+
 ## OSX Show Hidden Files in Finder
 
 If you want to change how OSX displays hidden files in Finder.
