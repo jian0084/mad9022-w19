@@ -115,6 +115,13 @@ App name: [your username]
 
 - FINDR: Cordova iOS App
 - Using Geolocation and Google Maps JS
+
+```
+package name:  ca.edumedia.[your username].findr
+github repo:  https://www.github.com/[your username]/findr
+App name: [your username]
+```
+
 - Details coming soon
 
 ## Project 5
