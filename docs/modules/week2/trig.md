@@ -132,3 +132,32 @@ Last step is doing this on the Canvas. Let's say that we want to draw a pie-wedg
     ctx.restore(); //put the (0,0) point back where it was
 </script>
 ```
+
+## Find the Angle from the Coordinates
+
+So, what about the `TOA` part of `SOH CAH TOA`?
+
+What if we have the coordinates of the point on the outside of the circle and we have the coordinates for the center of the circle but we need to know the angle?
+
+We can solve this using the `tangent` function, or rather, the `arctangent` function. We know from above that the result of `Math.tan(theta)` will be the same as the value of the length of the `Opposite` side divided by the length of the `Adjacent` side. - TOA.
+
+If you know what the value of the `Opposite` divided by the `Adjacent` is (let's call this value `ratio`) then you can give that number to the `Math.atan(ratio)` function and it will tell us the angle in radians.
+
+JavaScript actually has TWO `arctangent` methods. `Math.atan()` and `Math.atan2()`, They can both be used to find the angle. You can call the `atan` method and pass it the one number, the `ratio`. OR you can call the `atan2` method and pass it two numbers, the x value and the y value. They both give the same result.
+
+In practical terms, when doing this on the canvas element, we need to remember to subtract the x and y values of the center of the circle from our x and y point. `atan` and `atan2` work but assume that the center of the circle is at (0,0).
+
+```js
+let cx = 300; //center of the circle
+let cy = 300; //center of the circle
+let x = 390; //the x coord on the circle
+let y = 320; //the y coord on the circle
+
+let theta1 = Math.atan( (y-cy) / (x-cx) ); //version 1 divides the y difference by the x difference
+
+let theta2 = Math.atan2( x-cx, y-cy ); //version 2 just accepts the two differences
+
+//the values of theta1 and theta2 should be the exact same.
+//this is your angle, in radians
+```
+Once you have that angle, you can rotate something to face the direction of that (x, y) point.
