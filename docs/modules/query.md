@@ -38,6 +38,7 @@
 4. What is the return value from an Array `filter()` method? [a new Array]
 5. In the function that you pass to the `forEach` `map` or `filter` methods, what are the three parameters that you are given? [item, index, array]
 6. What are the two parameters that you pass to the Array `reduce` method? [function, accumulator]
+
 7. If you wanted to put the elements of an array in alphabetical order, what is the Array method you should call? [sort]
 8. If you want to put an array of strings that each start with a number, in numerical order, what would you do differently? [custom sort function(a, b){}]
 9. What is the difference between a method that says it `edits in place` vs one that says it returns a `shallow copy` [change the original array, creates a new copy]
