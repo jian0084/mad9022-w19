@@ -50,15 +50,20 @@ You can find all the Cordova commands here [Cordova CLI Reference](https://cordo
 
 The `config.xml` file is the settings file for your Cordova project. [Cordova config.xml Reference](https://cordova.apache.org/docs/en/8.x/config_ref/index.html)
 
-
+This is where you can change the version number for your app, the display name or package name for your app, or define what images to use for your Icon or Splashscreen.
 
 
 ## Storing Data
 
-There are many options for saving data in a Cordova application.
+There are many options for saving data in a Cordova application. [Data Storage Reference](https://cordova.apache.org/docs/en/8.x/cordova/storage/storage.html)
 
+LocalStorage is probably the simpliest of your options.
 
+WebSQL is a bit more complicated but it is supported on both iOS and Android. It uses the SQLite syntax. Support for this might be dropped by the browsers at any time. The standard is no longer being developed.
 
+IndexDB is only supported on Android so is not a great option for building apps.
+
+SQLite requires a plugin but works in the same was as WebSQL. Here is the [SQLite Plugin](https://github.com/litehelpers/Cordova-sqlite-storage#readme)
 
 
 ## Cordova Video Playlist
