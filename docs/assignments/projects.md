@@ -124,12 +124,12 @@ App name: [your username]
 
 - Details coming soon
 
-## Project 5
+## Project 5 - Videos & Thumbnails
 
 - Cordova App for platform of your choice
 - Details coming soon
 
-## Project 6
+## Project 6 - Tundra
 
 - Cordova App that runs on BOTH iOS and Android
 - Details coming soon

@@ -1,0 +1,2 @@
+# Cordova and SQLite
+

@@ -1,13 +1,22 @@
 # Working with iOS
 
-## Installing XCode
+## Installing and Updating XCode
 
-## XCode Simulators
+Always make sure that you have downloaded and installed the latest version of XCode. Apple is notorious for silently failing to let things run if you don't have the latest version.
 
-## Adding iOS API versions
+
+## XCode Simulators and API versions
 
 In Android Studio we update the API versions for working with Android. To download new API versions for iOS devices, we use XCode.
 
+- Open XCode and click on the `code` menu.
+- Select `preferences`
+- Go to the `Components` tab to see everything that is available and already downloaded.
+
+
+## Adding iOS API versions
+
+Having the latest updates for XCode will give you the latest batch of API versions.
 
 
 ## Apple Developer Accounts
