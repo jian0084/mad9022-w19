@@ -37,7 +37,7 @@ Note that the original array will be modified.
     url="https://www.youtube.com/embed/zVevl-K-m7Y"
 />
 
-## Looping
+## Looping Through Arrays
 
 If you want to loop through an Array and do something with each item then we would use the `forEach()` method.
 
