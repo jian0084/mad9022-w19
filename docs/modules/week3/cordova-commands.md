@@ -48,9 +48,18 @@ We can also SEARCH for plugins that match a certain keyword. This command will o
 
 The `config.xml` file is the settings file for your Cordova project.
 
+
+
+
 ## Storing Data
+
+There are many options for saving data in a Cordova application.
+
+
+
+
 
 ## Cordova Video Playlist
 
-Here is the playlist of tutorials on Cordova. As more Cordova tutorials are created, they will be added to this playlist.
+Here is the playlist of tutorials on Cordova. As more Cordova tutorials are created, they will be added to [this playlist](https://www.youtube.com/watch?v=CDY1fRZycGk&list=PLyuRouwmQCjkLnfGRHMosenaxPq9PqH0n).
 
