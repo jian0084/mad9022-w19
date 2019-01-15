@@ -42,6 +42,7 @@ SPA is a term used to refer to applications that use a single HTTP Request to lo
     url="https://www.youtube.com/embed/wlVmmsMD28w"
 />
 
+[Learn More about SPA](./spa.md)
 
 ## History API
 
