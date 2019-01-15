@@ -44,9 +44,11 @@ Just like the platform commands we can add, remove, or list the plugins.
 
 We can also SEARCH for plugins that match a certain keyword. This command will open your browser and take you to the search results for the plugin search.
 
+You can find all the Cordova commands here [Cordova CLI Reference](https://cordova.apache.org/docs/en/8.x/reference/cordova-cli/index.html)
+
 ## Config.xml File
 
-The `config.xml` file is the settings file for your Cordova project.
+The `config.xml` file is the settings file for your Cordova project. [Cordova config.xml Reference](https://cordova.apache.org/docs/en/8.x/config_ref/index.html)
 
 
 
