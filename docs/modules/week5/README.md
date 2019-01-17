@@ -2,9 +2,11 @@
 
 ## Working with Files in Cordova
 
+[Learn about File Handling in Cordova](./file-assets.md)
 
 ## Working with Media in Cordova
 
+[Learn about the Cordova Media Plugin](./cordova-media.md)
 
 ## Closures and Currying
 
