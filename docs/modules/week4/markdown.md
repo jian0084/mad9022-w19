@@ -4,6 +4,8 @@ You've been writing HTML MarkUp for a while now, so let's start talking about Ma
 
 The README.md file that you have been adding to your GitHub repos all this time is a MarkDown file.
 
+The biggest rule to follow is to always put a blank line between each of the elements. Extra carriage returns will be condensed into a single blank line, so don't worry about having too many.
+
 Here are a few of the common elements in a basic MarkDown file.
 
 ```md
