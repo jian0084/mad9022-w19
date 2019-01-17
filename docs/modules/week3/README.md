@@ -81,6 +81,17 @@ There are two types of Timers that you can use in JavaScript: `setTimeout()` and
 [Learn More](./timers.md)
 
 
+## Introduction to Single Page Applications
+
+A Single Page Application is a website built into a single HTML file. There are different areas, usually `<div>`s that are shown and hidden and made to act as if they were separate webpages. 
+
+The advantage of them is that they only have to download one HTML file, one JS file, and one CSS file. All the navigation after the initial load is just a series of CSS transitions. Nothing more needs to be downloaded by the browser.
+
+Optionally, you can download new content via `fetch` calls. However, this will still be more efficient than fetching HTML files and all their related files. Additionally, you can always cache the content of a page once it has been requested the first time.
+
+[Learn More about SPAs](./spa.md)
+
+
 ## OSX Show Hidden Files in Finder
 
 If you want to change how OSX displays hidden files in Finder.
