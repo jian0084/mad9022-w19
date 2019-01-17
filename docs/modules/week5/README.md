@@ -1,4 +1,4 @@
-# 5. Cordova, Prototypes, Closures, Currying
+# 5. Cordova, Prototypes, Closures, Currying & Event Loop
 
 ## Working with Files in Cordova
 

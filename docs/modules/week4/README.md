@@ -1,4 +1,4 @@
-# 4. Cordova Camera, Copying, Markdown, Errors
+# 4. Cordova, Copying, Markdown, & Errors
 
 ## Working with the Camera in Cordova
 
