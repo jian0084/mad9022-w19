@@ -72,6 +72,7 @@ The Content Security Policy is a `<meta>` tag that provides a set of instruction
 
 [Learn More about the Content-Security-Policy meta tag](./csp.md)
 
+Related to the Content Security Policy is the concept of CORS. If you are working the AJAX calls then you really should understand [CORS](./cors.md) too.
 
 ## Timers
 
