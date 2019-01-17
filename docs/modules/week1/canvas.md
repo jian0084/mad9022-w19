@@ -151,6 +151,17 @@ This video covers the concepts of rotate, scale, and translate as well as the ab
     url="https://www.youtube.com/embed/5vxygxshTQ4"
 />
 
+## Clearing the Canvas
+
+If you ever want to remove part of what has been added to the canvas, or wipe the whole surface, we can use the `clearRect()` method.
+
+```js
+context.clearRect(0, 0, canvas.width, canvas.height);
+```
+
+It takes four arguements - the starting `x` and `y` value of the rectangle you want to remove, plus the width and height of the rectangular area you want to clear.
+
+
 ## Additional Resources
 
 - [HTML Canvas Tutorial](https://www.html5canvastutorials.com/tutorials/html5-canvas-element/)
