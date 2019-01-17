@@ -31,7 +31,7 @@ Once you have a total, display it inside the div with the id `count`.
 
 ## Data reduction
 
-Using the [Array.prototype.reduce](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce) method convert an array into an average of all the values in the array.
+Using the [Array.prototype.reduce](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce) method convert an array into an total of all the values in the array which you then use to calculate the average.
 
 Start with the following HTML inside the `<body>`.
 

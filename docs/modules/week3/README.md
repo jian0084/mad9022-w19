@@ -66,6 +66,20 @@ The History API is how you can create an SPA and mimic the browser's natural nav
 />
 
 
+## Content Security Policy
+
+The Content Security Policy is a `<meta>` tag that provides a set of instructions to the browser on what sources it is allowed to use to load different types of related assets for your website.
+
+[Learn More about the Content-Security-Policy meta tag](./csp.md)
+
+
+## Timers
+
+There are two types of Timers that you can use in JavaScript: `setTimeout()` and `setInterval()`. The `setTimeout` method will run the provided function one time after a minimum delay. The `setInterval` will run the function repeatedly with a minimum delay between each call.
+
+[Learn More](./timers.md)
+
+
 ## OSX Show Hidden Files in Finder
 
 If you want to change how OSX displays hidden files in Finder.
