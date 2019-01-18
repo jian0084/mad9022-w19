@@ -32,10 +32,13 @@ Creating Android Applications requires slightly different approaches on Windows 
 
 ## Single Page Application (SPA)
 
-SPA is a term used to refer to applications that use a single HTTP Request to load one HTML file. Then everything that you need is either:
+SPA is a term used to refer to applications that use a single HTTP Request to load one HTML file. There are different areas, usually `<div>`s that are shown and hidden and made to act as if they were separate webpages. Then everything that you need is either:
 
 1. contained in the original HTML file and shown or hidden as needed.
 2. downloaded with `fetch()` and displayed as needed.
+
+The advantage of them is that they only have to download one HTML file, one JS file, and one CSS file. All the navigation after the initial load is just a series of CSS transitions. Nothing more needs to be downloaded by the browser. Optionally, you can download new content via `fetch` calls. However, this will still be more efficient than fetching HTML files and all their related files. Additionally, you can always cache the content of a page once it has been requested the first time.
+
 
 <YouTube
     title="Single Page Applications"
@@ -43,6 +46,7 @@ SPA is a term used to refer to applications that use a single HTTP Request to lo
 />
 
 [Learn More about SPA](./spa.md)
+
 
 ## History API
 
@@ -79,17 +83,6 @@ Related to the Content Security Policy is the concept of CORS. If you are workin
 There are two types of Timers that you can use in JavaScript: `setTimeout()` and `setInterval()`. The `setTimeout` method will run the provided function one time after a minimum delay. The `setInterval` will run the function repeatedly with a minimum delay between each call.
 
 [Learn More](./timers.md)
-
-
-## Introduction to Single Page Applications
-
-A Single Page Application is a website built into a single HTML file. There are different areas, usually `<div>`s that are shown and hidden and made to act as if they were separate webpages. 
-
-The advantage of them is that they only have to download one HTML file, one JS file, and one CSS file. All the navigation after the initial load is just a series of CSS transitions. Nothing more needs to be downloaded by the browser.
-
-Optionally, you can download new content via `fetch` calls. However, this will still be more efficient than fetching HTML files and all their related files. Additionally, you can always cache the content of a page once it has been requested the first time.
-
-[Learn More about SPAs](./spa.md)
 
 
 ## OSX Show Hidden Files in Finder
