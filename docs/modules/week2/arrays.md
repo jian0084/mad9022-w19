@@ -169,3 +169,10 @@ There are lots of other Array methods that you can use too - `from()`, `every()`
 
 [MDN Array Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/from)
 In the left hand menu you will find links for each of the Array methods.
+
+When a method makes a change to the original values stored inside an Array, the method is known as a destrutive one. If the method is not destructive then it means it is returning some other value or creating a shallow copy of the data.
+
+<YouTube
+    title="destructive methods"
+    url="https://www.youtube.com/embed/QlUFzhWiD4I"
+/>

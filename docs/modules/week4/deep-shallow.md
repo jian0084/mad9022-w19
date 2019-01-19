@@ -71,3 +71,4 @@ This means, in your new Array, if you change the value of one of the Objects, th
 There are a few ways that you can create actual true deep copies of Objects. They are all a little bit processor intensive but if you want a real copy then that is what you need to do.
 
 Here is a [great article](http://dassur.ma/things/deep-copy/) on the different ways that you can create deep copies.
+
