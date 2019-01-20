@@ -22,6 +22,11 @@ isAdmin("Sam", false);      //no output
 isAdmin("Castiel", true);   //ADMIN: Castiel
 ``` 
 
+<YouTube
+  title="Function default params"
+  url="https://www.youtube.com/embed/cN0Yg58Cjx8"
+/>
+
 ## References
 
 [https://www.sitepoint.com/es6-default-parameters/](https://www.sitepoint.com/es6-default-parameters/)

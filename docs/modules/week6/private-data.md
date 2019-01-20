@@ -44,6 +44,11 @@ console.log( outer.privateThing );          //undefined
 
 They will all fail. We can consider the variable `privateThing` a private variable held inside of the function `saveForLater`.
 
+<YouTube
+    title="Private Data in JS"
+    url="https://www.youtube.com/embed/kMNHAc7m_6A"
+/>
+
 ## ES5 Getters and Setters
 
 Another way that we can hide variables from other code is through using Getters and Setters.

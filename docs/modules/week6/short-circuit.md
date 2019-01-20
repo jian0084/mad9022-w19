@@ -90,4 +90,8 @@ let f = d || e;
 
 The variable `f` will be assigned the value 7. Both `d` and `e` will be examined.
 
+ <YouTube
+    title="Logical Short Circuiting"
+    url="https://www.youtube.com/embed/MR0ohAODlOI"
+ />
  

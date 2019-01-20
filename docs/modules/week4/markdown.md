@@ -28,6 +28,11 @@ This bunch of text is a paragraph
 [This is a link. The text goes here](./the-url-goes-here.html)
 ```
 
+<YouTube
+    title="Learning to write MarkDown"
+    url="https://www.youtube.com/embed/eJojC3lSkwg"
+/>
+
 ## References
 
 There are many tutorials for how to write markdown.

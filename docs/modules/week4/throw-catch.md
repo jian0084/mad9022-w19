@@ -123,5 +123,12 @@ We can add any code that we want inside of our error handling function but be su
 
 Here is an [example page on CodePen(http://codepen.io/mad-d/pen/QwGzLy/?editors=101) showing how to use this instead of a try catch block. 
  
-
+<YouTube
+  title="Handling Global Errors"
+  url="https://www.youtube.com/embed/KD4Znk9KsL4"
+/>
  
+ <YouTube
+  title="Debugging tips, tricks, and best practices"
+  url="https://www.youtube.com/embed/-rxYde_ESxA"
+ />

@@ -57,3 +57,8 @@ var sound = device.platform == 'Android' ? 'file://sound.mp3' : 'file://beep.caf
 This example shows a ternary operator check to see if the device platform is Android or not. If it is Android then `file://sound.mp3` will be saved inside the variable sound. If not Android, then `file://beep.caf` will be saved in the variable.
 
 The [device plugin reference](https://cordova.apache.org/docs/en/latest/reference/cordova-plugin-device/index.html)
+
+<YouTube
+    title="Cordova Device Plugin"
+    url="https://www.youtube.com/embed/WyjmmDWqmzk"
+/>
