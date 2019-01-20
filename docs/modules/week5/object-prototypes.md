@@ -76,8 +76,33 @@ Here is an example of prototypes being used to extend a native object, an Array,
 
 There were two methods added in ES5 that can be used to create or merge objects and set their prototype. The methods are `Object.create()` and `Object.assign()`.
 
-```js
+Calling `create` or `assign` will create an Object the same way as calling a function with the `new` keyword. Both methods will return a brand new object. Both methods accept a first parameter which is the Object to use as the `prototype` for the Object being created.
 
+Here is a new version of the code from above that uses `create`.
+
+```js
+let Character = {
+    name: null,
+    addWeapon: function(wpn){
+        this.weapon = wpn
+    },
+    attack: function(){
+
+    },
+    defend: function(){
+
+    }
+}
+
+let bob = Object.create(Character);
+bob.name = 'Bob';
+let katie = Object.create(Character);
+katie.name = 'Katie';
+
+bob.addWeapon('sword');
+katie.addWeapon('wand');
+bob.attack();
+katie.defend();
 ```
 
 <YouTube
