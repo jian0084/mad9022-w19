@@ -1,6 +1,6 @@
 # Promises
 
-Promises are a new feature added as part of the latest version of ECMAScript (JavaScript). They are widely supported across the browser platforms - http://caniuse.com/#search=promises (Links to an external site.)Links to an external site. . Internet Explorer did not support them but MS Edge does. All the other platforms - Firefox, Chrome, Safari, and Opera support them well.
+Promises are a new feature added as part of the latest version of ECMAScript (JavaScript). They are widely supported across the browser platforms. [Promise browser support](http://caniuse.com/#search=promises). Internet Explorer did not support them but MS Edge does. All the other platforms - Firefox, Chrome, Safari, and Opera support them well.
 
 So what are they? You can think of them as the new way to do callbacks whenever you want to run an asynchronous task.
 
@@ -41,6 +41,13 @@ p.then(function(){
 });
 ```
 
+Here is a video about the Basic syntax of Promises.
+
+<YouTube
+    title="Basic syntax of Promises"
+    url="https://www.youtube.com/embed/SmPouEFKOBg"
+/>
+
 Inside the Promise function you would carry out some asynchronous task. If it works then you call the function represented by the resolve variable. If it fails then you call the reject function. 
 
 A cool thing about the Promise structure is that when you use it you can chain together a series of then methods. Each then method runs it's function and it's return value will be passed to the next `then( )` method function.
@@ -75,29 +82,46 @@ The above code shows an example of the fetch method being used to make an AJAX c
 
 ## Video Tutorials
 
-<YouTube
-    title=""
-    url=""
-/>
+### Some more features of basic Promises
 
 <YouTube
-    title=""
-    url=""
+    title="more features of Promises"
+    url="https://www.youtube.com/embed/nB-aLKE76pY"
 />
 
-<YouTube
-    title=""
-    url=""
-/>
+### Promise all() Method
 
 <YouTube
-    title=""
-    url=""
+    title="Promise all method"
+    url="https://www.youtube.com/embed/1cFl7WQDYYo"
 />
 
+### Promise race() Method
+
 <YouTube
-    title=""
-    url=""
+    title="Promise race method"
+    url="https://www.youtube.com/embed/1cFl7WQDYYo"
+/>
+
+### Promise all and fetch
+
+<YouTube
+    title="Promise all and fetch"
+    url="https://www.youtube.com/embed/HTA7pEDGZEU"
+/>
+
+### Promise all Method for fetching Files
+
+<YouTube
+    title="Promise all for fetching files"
+    url="https://www.youtube.com/watch?v=K6fFv_D99CE"
+/>
+
+### Error Handling with Promises
+
+<YouTube
+    title="Error handling in promises"
+    url="https://www.youtube.com/embed/LzlGL3k3p04"
 />
 
 ## More References
