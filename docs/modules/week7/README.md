@@ -1,4 +1,4 @@
-# Geolocation & Google Maps
+# 7. Geolocation & Google Maps
 
 ## Geolocation
 
