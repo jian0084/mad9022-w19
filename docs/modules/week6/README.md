@@ -1,2 +1,2 @@
-# 6. Local Notifications, Time and ES6 Features
+# 6. Local Notifications, Time and Private Variables
 
