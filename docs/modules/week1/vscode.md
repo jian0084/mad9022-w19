@@ -24,6 +24,7 @@ To view the installed ones or search for new ones, click the bottom square icon 
 - [Level Up Tutorials](https://www.leveluptutorials.com/tutorials/vscode-tutorials/git-integration)
 - Extension for VS Code that replicates Live Preview from Brackets **Live Server** v5.3.1 by Ritwick Dei
 - [Some CSS Extensions for VS Code](https://scotch.io/bar-talk/6-awesome-css-extensions-for-vs-code)
-- 
+- [VS Code Cheatsheet](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf)
+
 
 
