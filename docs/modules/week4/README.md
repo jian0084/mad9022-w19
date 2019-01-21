@@ -26,4 +26,9 @@ All that red text that you have seen in the browser console is just the `message
 
 [Learn how to throw errors and catch them](./throw-catch.md)
 
+## Star Rating Systems
+
+I'm sure you've seen lots of websites where you can rate things using stars. There are many approaches to doing this using HTML, CSS, and JS. Here is one approach.
+
+[Learn more about Building Star Rating Systems](./star-rating-system.md)
 
