@@ -161,6 +161,134 @@ context.clearRect(0, 0, canvas.width, canvas.height);
 
 It takes four arguements - the starting `x` and `y` value of the rectangle you want to remove, plus the width and height of the rectangular area you want to clear.
 
+## Image Data on Canvas
+
+One of the really cool features about the HTML Canvas (beyond the drawing capabilities) is the ability to manipulate images on the Canvas at the binary level. We can manipulate individual pixels and change the red channel, green channel, blue channel, or alpha channel of that pixel.
+
+This means you can convert an image to greyscale or sepia. You could extract the levels in the image, create custom filters, average pixel values and create mosaic or pixelated or blurred effects.
+
+You can read the data from multiple sources and add it to the Canvas as a resulting image.
+
+You can grab frames from a video that is playing off screen and draw the screenshots on the Canvas. Want to grab screenshots from a video and use them as the thumbnail image? Canvas can help you do that.
+
+### Placing the image on the Canvas
+
+This is a simple step. Just use the drawImage( ) method of the context object.
+
+```js
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext('2d');
+var img1 = document.createElement('img');
+img1.addEventListener('load', function(ev){
+  //image has been loaded
+  ctx.drawImage( img1, 0, 0);
+});
+//alternate image source
+var img2 = document.getElementById('myImage');
+ctx.drawImage( img2, 0, 0);
+```
+
+The image source can be an image from creating an image element in the DOM or an existing image on the page or an image that the user selected with a form <input type="file" /> element.
+
+The code above shows how to add the image from two different sources. In a real context, you would do only one of these two things, not both.
+
+The next two values are the starting x and y coordinates for adding the image to the Canvas.
+
+There are two more optional parameters which would be the width and height of the part of the image to add to the Canvas.
+
+### Resize the Canvas to match the Image 
+
+This is an optional step. Sometimes you want the size of the Canvas to match the size of the image. We would do this to avoid having any blank white areas in our extracted image data.
+
+Wait for the image to be loaded onto the Canvas and then resize the Canvas to match the dimensions of the image.
+
+```js
+var w = img1.width;
+var h = img1.height;
+c.style.width = w + 'px';
+c.style.height = h + 'px';
+c.width = w;
+c.height = h;
+```
+
+We want to set BOTH the HTML properties for width and height AS WELL AS the CSS width and height properties on the Canvas.
+
+### Reading the Pixel Values from the Image
+If we want to access the data of the image on the Canvas then we can use the context's getImageData( ) method.
+
+**WARNING:** If the image comes from a different origin than the HTML file you will have a CORS issue and the browser will NOT let you work with the data from the image.
+
+This will return an object that contains an Array of 8-bit (one byte) numeric values. Each group of four values represents a pixel. The first value is the red channel value, the second is the green, the third is the blue, and the fourth is the alpha channel value. The fifth value in the Array would be the red channel value of the second pixel in the image. The Array just repeats through those four values from each pixel in order from left to right, top to bottom.
+
+```js
+var imgData = ctx.getImageData( );
+var data = imgData.data;   //this is the Array
+```
+
+The length of the data Array will be the same as the number of pixels multiplied by 4. The number of pixels will be the same as the image width multiplied by image height.
+
+To loop through the pixels you can either use a single for loop and look at each value individually OR you can use a set of nested loops and use the width and height (row and column) values to target pixels and then look at the targeted value or the next three in the data array.
+
+version one (single loop)
+
+```js
+for(var i=0, len=data.length; i<len; i=i+4){
+  //notice that we are incrementing by 4 each time
+  var red = data[i];
+  var green = data[i+1];  //could also be data[++i] if incrementing the loop by one
+  var blue = data[i+2];   //could also be data[++i] if incrementing the loop by one
+  var alpha = data[i+3];  //could also be data[++i] if incrementing the loop by one
+  
+}
+```
+
+version two (nested loops)
+
+```js
+for(var x=0, w=img1.width; x < w; x++){
+  for(var y=0, h=img1.height; y < h; y++){
+    var pixel = x * y * 4;
+    var red = data[pixel];
+    var green = data[++pixel];  //putting the ++ in front of the pixel means increment before using
+    var blue = data[++pixel];
+    var alpha = data[++pixel];
+
+  }
+}
+```
+
+### Updating the Image Data
+
+Whether you are using a single or nested loop approach to reading the data the update process is the same.
+
+You change the values that are stored inside your imgData.data Array.
+
+Each value is an 8-bit number between 0 and 255 (or 0x00 and 0xFF in hexidecimal) ( or 0000 0000  and  1111 1111 in binary).
+
+Let's say that we want to remove the red and green information from the image. We only want to keep the current blue value and set alpha to full. Using the nested loop example from above...
+
+```js
+for(var x=0, w=img1.width; x < w; x++){
+  for(var y=0, h=img1.height; y < h; y++){
+    var pixel = x * y * 4;
+    data[pixel] = 0;    //the red value
+    data[++pixel] = 0;  //the green value
+    pixel++;            // just increment past data[++pixel];
+    data[++pixel] = 255; //full alpha
+  }
+}
+```
+Once you have finished your loop you just need to pass this updated Array back to the Canvas.
+
+### Rendering the Updated Data
+
+To pass the new Array values back to the Canvas we will call the context's putImageData( ) method.
+
+```js
+ctx.putImageData( imgData.data );
+```
+
+This will immediately update the Canvas with the new image data. 
 
 ## Additional Resources
 
