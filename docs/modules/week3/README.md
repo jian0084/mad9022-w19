@@ -98,7 +98,15 @@ If you want to change how OSX displays hidden files in Finder.
     title="Show Hidden Files"
     url="https://www.youtube.com/embed/Gky4lD8yNJE"
 />
- 
+
+## Topics for Timed Exercise
+
+This week's timed exercise will require the following topics:
+
+- andom numbers;
+- timers;
+- DOM manipulation
+
 ## Useful Textbooks
 
 Here is a [collection of books](./orly.md) that every programmer should have.
