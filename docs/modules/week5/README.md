@@ -37,3 +37,11 @@ In Cordova Apps, files can be inside the www folder or they can be located elsew
 Cordova has a Media plugin to help you work with audio and video files in your app.
 
 [Learn about the Cordova Media Plugin](./cordova-media.md)
+
+## Timed Exercise
+
+This week's timed exercise will cover the following topics:
+
+- loops;
+- string comparison methods; 
+- form inputs and events
