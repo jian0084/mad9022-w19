@@ -103,9 +103,9 @@ If you want to change how OSX displays hidden files in Finder.
 
 This week's timed exercise will require the following topics:
 
-- andom numbers;
-- timers;
-- DOM manipulation
+- Random numbers; (MAD9014)
+- Timers; (see topic above)
+- DOM manipulation (MAD9014)
 
 ## Useful Textbooks
 
