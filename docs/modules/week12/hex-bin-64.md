@@ -207,12 +207,20 @@ And turn it into this:
 1	1	1	0
 Which is the number 14.
 
+<YouTube
+  title="Bitwise Operators"
+  url="https://www.youtube.com/embed/RRyxCmLX_ag"
+/>
  
 
 ### Bitwise References & Resources
 
 [MDN Bitwise Reference](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Operators/Bitwise_Operators)
 
+<YouTube
+  title="Number Bases"
+  url="https://www.youtube.com/embed/OlvZQbsLlxQ"
+/>
 
 ## Base-64
 
@@ -262,6 +270,11 @@ When you are going to convert data to base-64 you actually don't just take the d
 So, for each 3 bytes of data we are getting 4 values between 0 and 63. Each of these values will be displayed as `0-9, A-Z, a-z, +, /` where each character represents a value between 0 and 63.
 
 If we do not have enough bytes to evenly divide by three bytes then an equal-sign is used as a place holder for each missing 6-bit spot.
+
+<YouTube
+  title="base-64"
+  url="https://www.youtube.com/embed/SARf0c-D8BU"
+/>
 
 ## HTML and the data-uri format
 
