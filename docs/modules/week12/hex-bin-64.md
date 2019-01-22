@@ -22,9 +22,9 @@ Humans talk about numbers using the decimal number system. We have 10 different 
 
 The same thing happens in binary and hexidecimal. The difference is that in binary we only have two possible digits - zero and one. In hexidecimal we have 16 possible digits. We represent the extra six digits as the letters A to F. Below is a table that shows the decimal numbers 0 to 32 along with their binary and hexidecimal equivalents.
 
-----------------------------------------
+
 |  DECIMAL  |  BINARY  |  HEXIDECIMAL  |
-----------------------------------------
+|:--------:|:--------:|:------------:|
 |  0  |  0  |  0  |
 |  1  |  1  |  	1  |  
 |  2  |  10	 |  2  |
