@@ -30,10 +30,12 @@ The Fullscreen API lets us programmatically control making a page fill the whole
 
 ## Page Visibility API
 
-
+Want to know if a user is currently looking at your webpage?  Want to know if a tab is currently active? Want to turn off sound when your tab is not active?
 
 [Learn more about tracking active tabs](./page-visibility.md)
 
 ## Device Orientation API
+
+This goes further than just screen orientation. The device orientation API lets you track motion using the device accelerometer along the 3 axis - x, y, z.
 
 [Learn more about device orientation](./device-orient.md)
