@@ -20,8 +20,15 @@ When you have an Object which is iterable, that means that the Object has a prop
 
 [Learn more about Iterators and Generators](./iterator-generator.md)
 
+
 ## Web Payment Request API
 
+One of the new HTML5 APIs is the `Web Payment Request` API. With this API we have a standard way for users to fill in their credit card (payment) information. We don't need to have a form that we build with HTML and CSS. This will provide a standard method and do basic validation of the information. The credit information gets saved encrypted in the browser.  This will not send the information to Mastercard or Visa etc. It does not charge the card. The purpose of this is to standardize collection of payment information.
+
+[Learn more about the Payment Request API](./payment-request.md)
 
 ## WebRTC API
 
+WebRTC stands for Web Real Time Communication. There are many parts to this. What will be most valuable to us is the ability to capture media from the user and then stream that data.
+
+[Learn more about WebRTC API](./web-rtc.md)
