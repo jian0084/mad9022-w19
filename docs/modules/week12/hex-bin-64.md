@@ -22,10 +22,9 @@ Humans talk about numbers using the decimal number system. We have 10 different 
 
 The same thing happens in binary and hexidecimal. The difference is that in binary we only have two possible digits - zero and one. In hexidecimal we have 16 possible digits. We represent the extra six digits as the letters A to F. Below is a table that shows the decimal numbers 0 to 32 along with their binary and hexidecimal equivalents.
 
-```
---------------------------------------------------
+------------------------------------------
 |  DECIMAL  |  BINARY    |  HEXIDECIMAL  |
---------------------------------------------------
+------------------------------------------
 |  0  |  0  |  0  |
 |  1  |  1  |  	1  |  
 |  2  |  10	 |  2  |
@@ -61,7 +60,7 @@ The same thing happens in binary and hexidecimal. The difference is that in bina
 |  32  |  100000  |  20  |
 |  ...	|  ...  |	...  |
 |  255	|  11111111	  |  FF  |
-```
+
 
 Notice that 10 and 20 in Hexidecimal are both multiples of 16 in decimal.
 
@@ -171,9 +170,8 @@ The result variable would contain the value 8.
 
 You are effectively flipping the ones and zeros.
 
- 
+### Bitwise SHIFT
 
-Bitwise SHIFT
 There are two shift operators which can move the string of binary digits to the left or right.
 
 When you move the string to the right you are cutting off the right-most digits as they pass the imaginary decimal place.
@@ -184,7 +182,10 @@ The operators are: shift-right >> and shift-left <<
 
 In JavaScript it would look like this:
 
-var result = 7 >> 1;  //shift the 7 right one column.
+```js
+let result = 7 >> 1;  //shift the 7 right one column.
+```
+
 At the binary level it would take the 7:
 
 0	1	1	1
@@ -194,8 +195,10 @@ And turn it into this:
 Which is the number 3.
 
  
+```js
+let result = 7 << 1;  //shift the 7 left one column 
+```
 
-var result = 7 << 1;  //shift the 7 left one column 
 At the binary level it would take the 7:
 
 0	1	1	1
@@ -206,12 +209,13 @@ Which is the number 14.
 
  
 
-References & Resources
-https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Operators/Bitwise_Operators (Links to an external site.)Links to an external site. 
+### Bitwise References & Resources
 
+[MDN Bitwise Reference](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Operators/Bitwise_Operators)
 
 
 ## Base-64
+
 By this point we have discussed three different ways of expressing numbers - decimal, binary, and hexidecimal. Decimal numbers are also called base-10. Binary numbers are base-2. Hexidecimal numbers are base-16. 
 
 Two other numbering systems are are commonly used in programming are base-8 and base-64.
