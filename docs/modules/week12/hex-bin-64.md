@@ -83,44 +83,46 @@ So, computers store everything as OFF or ON which is represented as 0 or 1. This
 
 Everything we type, every image we create, every song and movie we play is all being stored as a series of ones and zeros.
 
- 
-
 Being able to change the ones and zeros individually requires using the bitwise operators. 
 
- 
+### Bitwise AND
 
-Bitwise AND
 Mathematical operations and changing the value of bits starts with understanding how the computer changes the individual ones and zeros. The first bitwise operator is call the AND operator. We use it to compare two sets of ones and zeros and if BOTH digits in the same column are a ONE then the result of the AND operation gives us a one.
 
 This is NOT the same as addition.
 
 Here is an example of the AND operation. We will take the numbers 7 and 5 in binary and AND them.
 
+```
 0	1	1	1
 0	1	0	1
 0	1	0	1
+```
 The first row is 7 in binary
 
 The second row is 5 in binary
 
 The third row is the result of 7 AND 5. In JavaScript this looks like:
 
-var result = 7 & 5;
+```js
+let result = 7 & 5;
+```
+
 This is often used to determine if there is a one in a specific position. Remember that every time we add another column the number is a power of two? 
 
-1 is 20 or 1 in binary
+1 is 2<sup>0</sup> or 1 in binary
 
-2 is 21 or 10 in binary
+2 is 2<sup>1</sup> or 10 in binary
 
-4 is 22 or 100 in binary
+4 is 2<sup>2</sup> or 100 in binary
 
-8 is 23 or 1000 in binary
+8 is 2<sup>3</sup> or 1000 in binary
 
 If you took any number and did an AND operation with 1, 2, 4, or 8 the result will either be zero or the number you started with (1, 2, 4 or 8). A great way to save a whole bunch of permissions inside a single number.
 
  
+### Bitwise OR
 
-Bitwise OR
 The Bitwise OR operator is a pipe character (|). It compares two numbers at the bit level and compares each number in each column. If EITHER number is a one then the result is a one.
 
 Using the 7 and 5 example from above.
@@ -130,12 +132,14 @@ Using the 7 and 5 example from above.
 0	1	1	1
 And in Javascript this would look like this:
 
-var result = 7 | 5;
+```js
+let result = 7 | 5;
+```
+
 The variable result would contain the value 7.
 
- 
+### Bitwise XOR
 
-Bitwise XOR
 XOR stands for Exclusive OR. That means that if only one of the two bits in the column is a one then the result will be one. If both bits are one the result is zero. If both bits are zero then the result is zero.
 
 That seven and five example again with the bitwise operator.
@@ -145,19 +149,24 @@ That seven and five example again with the bitwise operator.
 0	0	1	0
 In Javascript this would be written as:
 
-var result = 7 ^ 5;
+```js
+let result = 7 ^ 5;
+```
+
 The variable result would contain the value 2.
 
- 
+### Bitwise NOT
 
-Bitwise NOT
 The bitwise NOT operator is looking for ones and changing them to zeros. The zeros that it finds are being changed into ones.
 
 0	1	1	1
 1	0	0	0
 In Javascript this would be written as
 
-var result = ~7;
+```js
+let result = ~7;
+```
+
 The result variable would contain the value 8.
 
 You are effectively flipping the ones and zeros.
