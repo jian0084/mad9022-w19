@@ -40,6 +40,16 @@ The `class` keyword is simply a syntactical sugar added to the language to make 
 
 ## TypedArrays
 
+Standard Arrays in JavaScript can contain anything you want. A single array could contain a String, a Boolean, a Number, an Object, and another Array.
 
+TypedArrays are used to hold different chunks of data. But all the chunks have to be the same size. They could all be represented as numeric values. But this is only while they are being stored. You can have TypedArrays that hold 8bit, 16bit, or 32bit values. They can be signed or unsigned or clamped.
+
+Once the data is taken out of the TypedArray you can convert the bytes to whatever you like and combine them in any way that you want.
+
+[Learn more about TypedArrays](./typed-arrays.md)
 
 ## HTML5 Speech API
+
+The HTML5 Speech API lets us to simple text to speech operations from JavaScript
+
+[Learn more about the Speech API](./speech.md)
