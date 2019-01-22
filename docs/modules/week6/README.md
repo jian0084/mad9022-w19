@@ -35,3 +35,11 @@ There is a new HTML5 API that allows you to display pop up notifications in the 
 To be able to build applications for Cordova on iOS, you need to understand how to install and use the iOS SDK, XCode, and different Simulators. Before you can build anything for iOS you need to have an Apple Developer Account, create a signing certificate, and a mobile provisioning profile.
 
 [Learn More about setting up for iOS development](./ios.md)
+
+## Call, Apply, and Bind
+
+If you understand how `this` works in JavaScript then you know that sometimes it is not what you want it to be. In some languages they talk about having a delegate - an Object that will do things on behalf of something else.
+
+Call, Apply, and Bind do just that. We can take a function and tell JavaScript to pretend that some other Object is the one calling the function. This will change the value of the keyword `this`.
+
+[Learn how to use call, apply, and bind](./call-apply-bind.md)
