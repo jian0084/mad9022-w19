@@ -222,18 +222,21 @@ Two other numbering systems are are commonly used in programming are base-8 and 
 
 When we say base-64 we mean that there are 64 different digits that we use before we have to add a second column. The first number we get to that uses a second column is 10. It doesn't matter if we are using binary, decimal, hexidecimal, octal, or base-64 the first number with two columns is 10. 
 
-binary	octal	decimal	hexidecimal	base-64
-0	0	0	0	0
-1	1	1	1	1
-10	2	2	2	2
-11	3	3	3	3
-100	4	4	4	4
-101	5	5	5	5
-110	6	6	6	6
-111	7	7	7	7
-1000	10	8	8	8
-1001	11	9	9	9
-1010	12	10	A	a
+| binary | octal | decimal | hexidecimal | base-64 |
+|:----:|:----:|:----:|:----:|:----:|
+| 0 | 	0 | 	0 | 	0 | 	0 |
+| 1	| 1	| 1	| 1	| 1 |
+| 10	| 2	| 2	| 2	| 2 |
+| 11	| 3	| 3	| 3	| 3 |
+| 100	| 4	| 4	| 4	| 4 |
+| 101	| 5	| 5	| 5	| 5 |
+| 110	| 6	| 6	| 6	| 6 |
+| 111	| 7	| 7	| 7	| 7 |
+| 1000	| 10	| 8	| 8	| 8 |
+| 1001	| 11	| 9	| 9	| 9 |
+| 1010	| 12	| 10	| A	| A |
+| 111111 | 77 |  63 | 3F | / |
+
 As you can see, as each base runs out of different digits it needs to add the next column. This table shows the first 11 digits in each of these five bases.
 
 Since we only have 10 real digits that people use, once we get above that in Hexidecimal (base-16) we need to use 6 extra symbols to represent those last 6 digits. As a standard, we use the letters A - F.
@@ -248,57 +251,78 @@ A common use for base-64 is representing binary files (like images) as a string 
 
 The reason why this gets done is to allow binary files to be stored in and transmitted as part of a data text file. JSON and XML are both text file formats. You can't write binary data inside those files. However, you can convert your binary file into a base-64 string representation of the data and then embed that string inside of a JSON or XML file.
 
- 
+## Converting data to Base-64
 
-HTML and the data-uri format
+When you are going to convert data to base-64 you actually don't just take the data and change the base. Instead, we take data in chunks of 24 bits (3 bytes) at a time. Then we turn that into four 6-bit values.
+
+```
+000000 - is 0 in decimal
+111111 - is 63 in decimal
+```
+So, for each 3 bytes of data we are getting 4 values between 0 and 63. Each of these values will be displayed as `0-9, A-Z, a-z, +, /` where each character represents a value between 0 and 63.
+
+If we do not have enough bytes to evenly divide by three bytes then an equal-sign is used as a place holder for each missing 6-bit spot.
+
+## HTML and the data-uri format
+
 We are actually allowed to display images on webpages using base-64 encoding. It is known as the data-uri format.
 
 We can use this format in either our HTML <img> tags or in CSS with the url( ) value.
 
 In HTML:
 
+```html
 <img src="data:image/gif;base64,R0lGODlhEAAQAMQAAORHHOVSKudfOulrSOp3WOyDZu6QdvCchPGolfO0o/XBs/fNwfjZ0frl3/zy7////wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAkAABAALAAAAAAQABAAAAVVICSOZGlCQAosJ6mu7fiyZeKqNKToQGDsM8hBADgUXoGAiqhSvp5QAnQKGIgUhwFUYLCVDFCrKUE1lBavAViFIDlTImbKC5Gm2hB0SlBCBMQiB0UjIQA7" alt="a star image built with base-64"/>
+```
+
 In CSS:
 
+```css
 .element{
   background-image: url(data:image/gif;base64,R0lGODlhEAAQAMQAAORHHOVSKudfOulrSOp3WOyDZu6QdvCchPGolfO0o/XBs/fNwfjZ0frl3/zy7////wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAkAABAALAAAAAAQABAAAAVVICSOZGlCQAosJ6mu7fiyZeKqNKToQGDsM8hBADgUXoGAiqhSvp5QAnQKGIgUhwFUYLCVDFCrKUE1lBavAViFIDlTImbKC5Gm2hB0SlBCBMQiB0UjIQA7);
 }
+```
+
 We need a couple things to preface the actual base-64 data.
 
-data:image/gif;base64,
+`data:image/gif;base64,`
 
-data:image/jpeg;base64,
+`data:image/jpeg;base64,`
 
-data:image/png;base64,
+`data:image/png;base64,`
 
 One of these needs to preface the base-64 data when assigning it in the HTML or CSS.
 
- 
+## Transmitting Base-64 Data
 
-Transmitting Base-64 Data
 We do need to be careful when transmitting the base-64 data between the browser and a server over HTTP/S. The last two characters + and / are both special characters in a URL. So, we should URL encode the string before transmitting it and the URL decode the string after it is received.
 
 In Javascript:
 
-var encodedString = encodeURIComponent( base64String );
+```js
+let encodedString = encodeURIComponent( base64String );
 //the line above will encode the string so it can be sent to the server.
-var decodedString = decodeURIComponent( serverEncodedString );
+let decodedString = decodeURIComponent( serverEncodedString );
 //the line above will DECODE an encoded string that was sent from the server.
+```
+
 In PHP:
 
+```php
 $encodedString = rawurlencode( $string );
 //the line above will take a string and encode it with a safe base64 that can be transmitted
 $decodedString = rawurldecode( $stringFromBrowser );
 //the line above will take the encoded string from the browser and replace things like %20 with literal characters
+```
+
 Spaces in the original string will become %20.
 
-+ in the original string will become %2B
+`+ in the original string will become %2B`
 
-/ in the original string will become %2F
+`/ in the original string will become %2F`
 
- 
+## References & Resources for Data URI and Base-64
 
-References & Resources
-https://css-tricks.com/data-uris/ (Links to an external site.)Links to an external site.
+[About Data URIs](https://css-tricks.com/data-uris/)
 
-https://developer.mozilla.org/en-US/docs/Web/API/WindowBase64/Base64_encoding_and_decoding (Links to an external site.)Links to an external site.
+[MDN base 64](https://developer.mozilla.org/en-US/docs/Web/API/WindowBase64/Base64_encoding_and_decoding)
