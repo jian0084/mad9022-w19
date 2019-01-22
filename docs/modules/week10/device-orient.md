@@ -27,7 +27,7 @@ function( orientation ){
 
 The three axes are:
 
-![alpha orientation]() ![beta orientation]() ![gamma orientation]()
+![alpha orientation](./alpha.png) ![beta orientation](./beta.png) ![gamma orientation](./gamma.png)
 
 The alpha angle is rotation around the z axis, which would be like you pushing your finger through the middle of the screen.
 
