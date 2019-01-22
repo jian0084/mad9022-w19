@@ -50,6 +50,11 @@ Once the data is taken out of the TypedArray you can convert the bytes to whatev
 
 ## HTML5 Speech API
 
-The HTML5 Speech API lets us to simple text to speech operations from JavaScript
+The HTML5 Speech API lets us do two things:
+
+- simple text-to-speech operations 
+- speech-recognition
+
+all from JavaScript
 
 [Learn more about the Speech API](./speech.md)
