@@ -31,3 +31,10 @@ Additionally, there is a Media and a Media Capture plugin for Cordova. This give
 JavaScript `Object`s have properties. The properties can be methods, events, or just properties. However, did you know that properties have built-in properties?  You can actually control what can be done with the properties. You can set default values, make properties readable, writable and enumerable.
 
 [Learn More about Property Descriptors](./property-descriptors.md)
+
+## Destructuring
+
+Another great new feature in ES6 is the ability to Destructure objects. It uses the `spread` operator and does some cool things to make our code more efficient.
+
+[Learn more about destructuring](./destructuring.md)
+
