@@ -25,6 +25,22 @@ You should have received an invitation to join our Apple Developer Account. Plea
 
 When you want to have your own Account and actually push things to the App Store then you will want to buy your own Apple Developer Account ($99 per year). You will want to use your own Apple ID and your own email address for that.
 
+An invitation has been sent to everyone to join the Algonquin College (Media & Design) Apple Developer account as members. You will need to accept this invitation and become a registered Apple Developer before you can test any iOS apps that you build.
+
+To compile and install an iOS app you will need to do the following things:
+
+1. Register as an Apple Developer here [https://developer.apple.com/account/](https://developer.apple.com/account/)
+2. Go to the page for `Certificates` and create a `Developer certificate`. This will require you using the `Keychain Assistant` program on your Macbook Pro. Instructions are on the page that you visit to create the certificate. You will be uploading a `CSR (certificate signing request)` that you generate. Watch the video below for more details on this.
+3. Download and install the Certificate that you made. XCode will need this certificate.
+4. Download and install a provisioning certificate. The Provisioning certificate is something that combines a list of approved users and a list of approved devices for a developer account. This certificate is used to allow the building and installing of apps on devices.
+
+<YouTube
+    title="iOS Development Certificates"
+    url="https://www.youtube.com/embed/1ocAaWzhK9k"
+/> 
+
+Every time a new developer certificate is created or a device is added to our Apple account then an account administrator (Steve) has to create a new updated provisioning certificate.
+
 ## Certificates
 
 You will need to create a signed certificate that will create a connection between your Apple Developer account, our College account, and your MacBook Pro with your copy of XCode.
