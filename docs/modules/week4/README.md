@@ -32,3 +32,8 @@ I'm sure you've seen lots of websites where you can rate things using stars. The
 
 [Learn more about Building Star Rating Systems](./star-rating-system.md)
 
+## Icons in Cordova
+
+Learn about sizing favicons and launcher icons and app icons. Learn about sizes of icons for iOS and Android. Learn about adding the icons to Cordova projects.
+
+[Learn about Icons for Cordova](./icons.md)
