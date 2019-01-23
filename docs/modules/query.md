@@ -34,7 +34,7 @@
 
 1. What is an example of a method that can be used to combine two arrays? [concat, splice]
 2. What is the return value from an Array `forEach()` method? [undefined]
-3. What is the return value from an Array `map()` method? [a new Array]
+3. What is the return value from an Array `map()` method? [a new Array] 
 4. What is the return value from an Array `filter()` method? [a new Array]
 5. In the function that you pass to the `forEach` `map` or `filter` methods, what are the three parameters that you are given? [item, index, array]
 
