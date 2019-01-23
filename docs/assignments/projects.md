@@ -12,7 +12,7 @@ The **minimum requirements** for ALL project submission are:
 
 If the project does not meet these requirements it will not be graded.
 
-**All submissions must be demonstrated and uploaded to GitHub a maximum of 7 days following the due date.**
+**All late submissions must be demonstrated and uploaded to GitHub a maximum of 7 days following the due date.**
 
 [Setup Instructions for all Cordova Projects](./project-setup.md)
 
