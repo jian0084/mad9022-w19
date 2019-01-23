@@ -13,6 +13,7 @@
 
 **[Cordova Project List](./projects.md)**
 
+**[Setup Instructions for all Cordova Projects](./project-setup.md)**
 
 
 ## Verbal Quizzes <Badge text="20% of Final Grade"/>
