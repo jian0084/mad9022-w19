@@ -3,8 +3,8 @@
 You can use these same instructions for setting up for any of the Cordova project.
 
 1. Create a **private** repo on GitHub.com using the provided name in the project description.
-2. Create the Cordova project on your computer with the `cordova create` command.
-3. Navigate into the Cordova project folder that you just created using `cd` in the Terminal.
+2. Create the Cordova project on your computer with the `cordova create [folder] [package.name] [appName]` command.
+3. Navigate into the Cordova project folder that you just created using `cd [folder]` in the Terminal.
 4. Turn the project into a Git project folder with `git init`.
 5. Add a `.gitignore` file at the root of the project and add the following lines inside the file.
 ```
