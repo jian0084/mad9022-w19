@@ -25,3 +25,15 @@ If you are working with iOS then you need to be careful about the additional per
     title="Cordova Camera Permissions for iOS"
     url="https://www.youtube.com/embed/mMgjaPeof5c"
 />
+
+After you take a picture with the Android Emulator Camera, if you have selected `Camera.destinationType.FILE_URI` as the result from calling the camera, then you will get back a string that looks something like this:
+
+```
+file:///storage/emulated/0/Android/data/ca.edumedia.griffis.cordcam/cache/1548683871642.jpg
+```
+
+Things to note about this path:
+
+- it starts with `file:///`.
+- Your `package name` is part of the path. This is where your application is installed on the device / emulator.
+- The `cache` folder is where it is saved by default.
