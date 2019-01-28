@@ -126,13 +126,26 @@ App name: [your username]
 
 - Details coming soon
 
-## Project 5 - Videos & Thumbnails
+## Project 5 - Thumbed
 
-- Cordova App for platform of your choice
-- Details coming soon
+- THUMBED: Cordova App for platform of your choice
+
+```
+package name:  ca.edumedia.[your username].thumbed
+github repo:  https://www.github.com/[your username]/thumbed
+App name: [your username]
+```
+
+You will be creating a Cordova App with two screens whic lets a user record a video using the device camera (front or back). After recording and saving the video to the application's `data` directory (not `cache`) you will then use the HTML5 canvas element(s), HTML video element, and IMG element(s) to gather a series of screen grabs from the video. Combine all the screengrabs into a single image that shows 4 thumbnails from the video.
+
+The image with the 4 thumbnails is to be used as the poster image for the saved video. One screen lets the user record videos and generate the thumbnails. The second screen will show the saved videos as a vertical column of video players. Each video player will show the generated poster image.
+
+- More details coming soon
+
 
 ## Project 6 - Tundra
 
-- Cordova App that runs on BOTH iOS and Android
+- TUNDRA: Cordova App that runs on BOTH iOS and Android
+
 - Details coming soon
 
