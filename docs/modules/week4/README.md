@@ -51,4 +51,3 @@ Here is a CodePen example with a simple form that has two elements: string and a
 </p>
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
 
-[CodePen direct link](https://codepen.io/mad-d/pen/PVzWNz?editors=1010)

@@ -28,6 +28,7 @@ App name: [your username]
 
 - Create an Android app with Cordova on Windows that allows the user to take a picture of anything and review it. 
 - The app will be a single page application - a single HTML file with a series of divs where only one of the divs appears at a time.
+- Use of the History API is optional for this assignment.
 
 #### Home Page
 
