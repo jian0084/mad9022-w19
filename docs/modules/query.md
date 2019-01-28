@@ -48,7 +48,16 @@
 
 ## Week 4 - DOM
 
-1. 
+1. What is the difference between the return values of `querySelector` and `querySelectorAll`?
+2. Name two classList object methods? [`add`, `remove`, `toggle`, `contains`]
+3. What is the difference between `innerHTML` and `textContent`? [first contains elements]
+4. What is the command for creating a new paragraph element? [document.createElement()]
+5. After you have created a new HTML Element, how do you add it to the page? [appendChild]
+6. If you wanted to invent your own HTML attributes how would you name them? [data-]
+7. If you want to delete an HTML element from the page what property or method would you use? [innerHTML, removeChild()]
+8. How would you retrieve the value of a `data-` attribute? [getAttribute()]
+9. What is an alternative to using `classList` to change an element's CSS classes? [className]
+10. If you want to add a bunch of elements at the same time without adding an extra HTML element around them, what could you use to hold them together and add them? [DocumentFragment]
 
 ## Week 5 - DOM
 
