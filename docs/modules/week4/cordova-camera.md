@@ -38,3 +38,4 @@ Things to note about this path:
 - Your `package name` is part of the path. This is where your application is installed on the device / emulator.
 - The `cache` folder is where it is saved by default.
 - If you have the `cordova-plugin-file` installed then you can use `cordova.file.cacheDirectory` as a reference property for that cache folder.
+- To permanently store images or videos or other files we would use `cordova.file.dataDirectory` as the folder which is private to the application but considered permanent storage.
