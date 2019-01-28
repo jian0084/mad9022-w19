@@ -26,6 +26,12 @@ Additionally, there is a Media and a Media Capture plugin for Cordova. This give
 
 [Learn more about Media Capturing](./media-capture.md)
 
+## Cordova File Management
+
+There is a plugin with Cordova to allow you access to the file system on the mobile device. This plugin will let you add, move, or delete files and is very useful when working with media files.
+
+[Learn more about Cordova File Plugin](./cordova-files.md)
+
 ## Property Descriptors
 
 JavaScript `Object`s have properties. The properties can be methods, events, or just properties. However, did you know that properties have built-in properties?  You can actually control what can be done with the properties. You can set default values, make properties readable, writable and enumerable.
