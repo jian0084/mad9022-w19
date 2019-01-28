@@ -10,6 +10,8 @@ The link above would be pointing to an mp3 file that is inside of a sound folder
 
 When you `build` your cordova project the contents of your `www` folder get copied to  `/platforms/android/assets/www/`. So, `file:///android_asset/www` is actually pointing to that copied version of the folder.
 
+Cordova has a `File` plugin which will allow you to access the File System on the device, and manage files and folders. [Cordova File Plugin reference](https://cordova.apache.org/docs/en/8.x/reference/cordova-plugin-file/index.html)
+
 When working with Android apps the path can be relative when working with things like images or sounds.
 
 ```html

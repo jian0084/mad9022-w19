@@ -37,3 +37,4 @@ Things to note about this path:
 - it starts with `file:///`.
 - Your `package name` is part of the path. This is where your application is installed on the device / emulator.
 - The `cache` folder is where it is saved by default.
+- If you have the `cordova-plugin-file` installed then you can use `cordova.file.cacheDirectory` as a reference property for that cache folder.
