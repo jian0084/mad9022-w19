@@ -126,7 +126,7 @@ App name: [your username]
 
 - Details coming soon
 
-## Project 5 - Thumbed
+## Project 5 - THUMBED
 
 - THUMBED: Cordova App for platform of your choice
 
