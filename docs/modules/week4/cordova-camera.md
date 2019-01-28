@@ -39,3 +39,18 @@ Things to note about this path:
 - The `cache` folder is where it is saved by default.
 - If you have the `cordova-plugin-file` installed then you can use `cordova.file.cacheDirectory` as a reference property for that cache folder.
 - To permanently store images or videos or other files we would use `cordova.file.dataDirectory` as the folder which is private to the application but considered permanent storage.
+
+## Potential Issues
+
+When taking a picture on Android, it is possible for some devices to lack sufficient memory to keep your app in the background while taking and saving a picture. 
+
+All Cordova apps have `pause` and `resume` events that we can listen for. When an app is shut down by the user or the system it will fire the `pause` event. When it is brought back to life, the `resume` event will fire. 
+
+For Cameras taking pictures it means we might need to use the resume event to capture the image coming back from the Camera app and then pass it to our Camera success callback ourselves.
+
+Here is [an example of this code](https://cordova.apache.org/docs/en/dev/guide/platforms/android/index.html#example)
+
+<YouTube
+    title="Cordova pause and resume events"
+    url="https://www.youtube.com/embed/FfYXu-lhQ_A"
+/>
