@@ -37,3 +37,18 @@ I'm sure you've seen lots of websites where you can rate things using stars. The
 Learn about sizing favicons and launcher icons and app icons. Learn about sizes of icons for iOS and Android. Learn about adding the icons to Cordova projects.
 
 [Learn about Icons for Cordova](./icons.md)
+
+## How to Inject User Input into a JS Object
+
+When you are working with LocalStorage, usually you will be working with Arrays and Objects. So, it is important to know how to build those Arrays and Objects before you `stringify` them and add them to localStorage.
+
+Here is a CodePen example with a simple form that has two elements: string and a number. Those values are turned into an Object along with a generated `id` and then added to an Array.
+
+<p class="codepen" data-height="265" data-theme-id="0" data-default-tab="js,result" data-user="mad-d" data-slug-hash="PVzWNz" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid black; margin: 1em 0; padding: 1em;" data-pen-title="Putting User Input Into an Object">
+  <span>See the Pen <a href="https://codepen.io/mad-d/pen/PVzWNz/">
+  Putting User Input Into an Object</a> by Mobile Application Design-Development (<a href="https://codepen.io/mad-d">@mad-d</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+
+[CodePen direct link](https://codepen.io/mad-d/pen/PVzWNz?editors=1010)
