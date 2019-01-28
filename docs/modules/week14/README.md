@@ -25,3 +25,9 @@ Service workers are similar to Web workers in that they run in their own thread.
 They are a key component to PWA Progressive Web Apps.
 
 [Learn more about Service Workers](./service-worker.md)
+
+## ES7 Optional Chaining Feature
+
+There are lots of new ES7 and ES8 features that are already rolling out into the browsers.
+
+[Learn more about Optional Chaining](./optional-chaining.md)
