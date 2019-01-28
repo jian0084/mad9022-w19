@@ -124,7 +124,14 @@ github repo:  https://www.github.com/[your username]/findr
 App name: [your username]
 ```
 
-- Details coming soon
+This app will only have one screen. The whole screen will be filled with an interactive Google Map.
+
+After the app has loaded check for the dimensions of the device screen and resize your map and map div to match those dimensions through JavaScript, not CSS. Next, use Geolocation and center the map on the user's current location.
+
+Double tapping on the map will add a marker to the map. Let the user enter a label for that marker. The coordinates for the tap and the label need to be saved in localStorage. This way, every time the app loads it can add the markers to the map that were saved previously. You can use the built-in JavaScript `prompt()` method to collect the label OR a modal window with a form input.
+
+Each marker needs to have an InfoWindow which will appear when the marker is tapped. Inside the InfoWindow you should display the label that was entered and a button or link that can be tapped to remove the marker from the map and localStorage.
+
 
 ## Project 5 - THUMBED
 
@@ -140,7 +147,11 @@ You will be creating a Cordova App with two screens whic lets a user record a vi
 
 The image with the 4 thumbnails is to be used as the poster image for the saved video. One screen lets the user record videos and generate the thumbnails. The second screen will show the saved videos as a vertical column of video players. Each video player will show the generated poster image.
 
-- More details coming soon
+Disable the native controls on the video player elements. Do NOT have them automatically start playing. Create your own `Play | Pause` button and a `Delete` button for each video. Set the volume for each video to a low level. Clicking the delete button should:
+
+1. remove the video player from the page; 
+2. delete the poster image from the device storage;
+3. delete the video file from the device storage.
 
 
 ## Project 6 - Tundra
