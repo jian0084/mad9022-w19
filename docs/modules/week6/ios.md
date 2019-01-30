@@ -62,3 +62,49 @@ You should see information about the device being displayed that will include a 
 In your email include the type of device that it is. Eg: iPhone 8 plus.
 
 You will be notified when a new provision profile that includes this device has been created.
+
+## Set up XCode for Cordova
+
+We will also want to add the proper tools for XCode to integrate Cordova with XCode. Once XCode is installed you need to run this command:
+
+```
+xcode-select --install
+``` 
+
+## Set up for iOS Deployment from Cordova
+
+NPM has a tool for deploying to an iOS device from the command line. This will let us launch our apps from the command line into the iOS device. From the terminal run this command:
+
+```
+npm install -g ios-deploy --unsafe-perm=true
+``` 
+
+Then you will be able to do this:
+
+```
+cordova run ios
+```
+
+On the command line and launch into the connected iOS device.
+
+THERE MAY BE ISSUES with installing this that will require you to use "sudo".
+
+```
+sudo npm install -g ios-deploy --unsafe-perm=true
+```
+
+If there are still permission issues then reference this link to see the extra options to use when running the sudo npm install command - [NPM reference for ios-deploy](https://www.npmjs.com/package/ios-deploy).
+
+Opening a Cordova app in XCode will be the easiest way to test your app in the Simulator. XCode has a run button and a drop down list. You can select which version of the Simulator that you want to use and click the run button to launch the app on the Simulator.
+
+## Debugging with Safari
+
+In the same way that Chrome has the remote devices tool that lets us look at our Cordova apps and the console in the browser, Safari will let us look at the Cordova apps and console for apps running on iOS devices or the Simulator.
+
+With Safari open, click on the Develop menu and look for the name of your Macbook Pro in the menu. Selecting your MBP you will see a sub-menu that shows any running Simulators or connected devices for you to monitor.
+
+<YouTube
+    title="Mobile Web and Hybrid App Testing with Safari and iOS Devices"
+    url="https://www.youtube.com/watch?v=DJnwb4Qeq1M"
+/>
+

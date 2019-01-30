@@ -21,10 +21,20 @@ If you are working with iOS then you need to be careful about the additional per
     url="https://www.youtube.com/embed/jlL1RuW9Kiw"
 />
 
+[Code Gist from the Camera video](https://gist.github.com/prof3ssorSt3v3/75092fbba5428fb9369fa02b75fa73b2)
+
 <YouTube
     title="Cordova Camera Permissions for iOS"
     url="https://www.youtube.com/embed/mMgjaPeof5c"
 />
+
+Here is the sample permission install that you need for iOS. Note that there are two permissions. The first one is for general use of the Camera. The second is for being able to access the PhotoLibrary.
+
+```
+cordova plugin add cordova-plugin-camera --variable CAMERA_USAGE_DESCRIPTION="your usage message"  --variable PHOTOLIBRARY_USAGE_DESCRIPTION="your usage message"
+```
+
+## Saving the Camera Image
 
 After you take a picture with the Android Emulator Camera, if you have selected `Camera.destinationType.FILE_URI` as the result from calling the camera, then you will get back a string that looks something like this:
 
@@ -40,6 +50,24 @@ Things to note about this path:
 - If you have the `cordova-plugin-file` installed then you can use `cordova.file.cacheDirectory` as a reference property for that cache folder.
 - To permanently store images or videos or other files we would use `cordova.file.dataDirectory` as the folder which is private to the application but considered permanent storage.
 
+## Sample Options for the Camera
+
+When you are calling the `getPicture()` method there are lots of possible options that you can pass to the method as the third parameter. Here is a sample.
+
+```js
+let options = {
+  quality: 80,
+  destinationType: Camera.DestinationType.FILE_URI,
+  encodingType: Camera.EncodingType.PNG,
+  mediaType: Camera.MediaType.PICTURE,
+  sourceType: Camera.PictureSourceType.CAMERA,
+  allowEdit: true,
+  targetWidth: 300,
+  targetHeight: 300
+}
+```
+
+
 ## Potential Issues
 
 When taking a picture on Android, it is possible for some devices to lack sufficient memory to keep your app in the background while taking and saving a picture. 
@@ -54,3 +82,11 @@ Here is [an example of this code](https://cordova.apache.org/docs/en/dev/guide/p
     title="Cordova pause and resume events"
     url="https://www.youtube.com/embed/FfYXu-lhQ_A"
 />
+
+### Additional Issue on iOS
+
+There is also a method on iOS that you can call to clean up temporary image files that may have been created when you are taking a pictures and returning a file URI.
+
+```js
+navigator.camera.cleanup( successCallback, errorCallback );
+```

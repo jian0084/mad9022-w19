@@ -61,9 +61,31 @@
 
 ## Week 5 - DOM
 
+1. Other than the document object, what kind of object can use the `querySelector` method? [Element nodes]
+2. What is the event name used with `addEventListener` to capture right-click events? [contextmenu]
+3. What are two events associated with a user typing? [keyup, keydown, keypress, input]
+4. What is the event to capture changes made to an input field as the user is typing? [input]
+5. What is the event to capture the event when a user clicks in or tabs to a form field? [focus]
+6. What is the event to capture when a user clicks or tabs away from a form field? [blur]
+7. What is the attribute that you can use to set the order in which a user tabs through a form? [tabindex]
+8. What is the method you would use to get rid of an event listener? [removeEventListener]
+9. If I wanted to set the CSS background-color property in JS how would i write that? [element.style.backgroundColor]
+10. ?
+
 ## Week 6 - Cordova
 
+1. What is the command to launch a Cordova app in the emulator? [cordova emulate ios]
+2. What is the name of the plugin for the Camera that you would use when installing the plugin? [cordova-plugin-camera]
+3. What is the current major version of Cordova? [8]
+4. What is the name or number of the latest API of Android? [Oreo 26, 27, Pie 28]
+5. What is the current major version of iOS? [12]
+6. If you wanted to have some code that runs when your Cordova app is being put into the background then what event would you add a listener for? [pause]
+7. What plugin do you use to set a reminder in Cordova? [local-notification]
+8. What is the name of the extra permission that you have to set in iOS for the Camera? [CAMERA_USAGE_DESCRIPTION or PHOTOLIBRARY_USAGE_DESCRIPTION]
+
 ## Week 7 - Objects
+
+1. ?
 
 ## Week 8 - Loops
 

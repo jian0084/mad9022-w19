@@ -34,7 +34,7 @@ There is a new HTML5 API that allows you to display pop up notifications in the 
 
 To be able to build applications for Cordova on iOS, you need to understand how to install and use the iOS SDK, XCode, and different Simulators. Before you can build anything for iOS you need to have an Apple Developer Account, create a signing certificate, and a mobile provisioning profile.
 
-[Learn More about setting up for iOS development](./ios.md)
+[Learn More about setting up for iOS Cordova development](./ios.md)
 
 ## Call, Apply, and Bind
 
