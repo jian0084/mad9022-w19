@@ -81,7 +81,7 @@ App name: [your username]
 ```
 
 - This cordova app will be a SPA that shows a scrollable playlist of audio files. 
-- The app will use the HMTL5 Audio player to play the audio, but the player itself will not be visible on the page.
+- The app will use the HTML5 Audio player to play the audio, but the player itself will not be visible on the page.
 - The audio controls will be created by you.
 - Each of the entries in the playlist should show a title, an artist, and a thumbnail image that represents the audio file.
 - Nothing plays by default when the app loads. The user will have to top on an item in the list to play.
