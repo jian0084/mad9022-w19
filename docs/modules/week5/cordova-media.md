@@ -41,13 +41,13 @@ Once you have instantiated a `Media` object then you can use the provided method
 
 - media.getCurrentAmplitude(): Returns the current amplitude within an audio file.
 - media.getCurrentPosition(): Returns the current position within an audio file.
-- media.getDuration(): Returns the duration of an audio file.
+- media.getDuration(): Returns the duration of an audio file in SECONDS.
 - media.play(): Start or resume playing an audio file.
 - media.pause(): Pause playback of an audio file.
 - media.pauseRecord(): Pause recording of an audio file.
 - media.release(): Releases the underlying operating system's audio resources.
 - media.resumeRecord(): Resume recording of an audio file.
-- media.seekTo(): Moves the position within the audio file.
+- media.seekTo(): Moves the position within the audio file. Use MILLISECONDS.
 - media.setVolume(): Set the volume for audio playback.
 - media.startRecord(): Start recording an audio file.
 - media.stopRecord(): Stop recording an audio file.
@@ -60,7 +60,7 @@ There are also two properties of the `Media` object. They are READ ONLY though.
 - position: the current position in the media file
 - duration: the length of the media file
 
-Use the `media.seekTo()` method to move around the file.
+Use the `media.seekTo(ms)` method to move around the file. Use a **millisecond** value.
 
 ## Important Note for Android
 
