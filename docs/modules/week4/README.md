@@ -51,3 +51,8 @@ Here is a CodePen example with a simple form that has two elements: string and a
 </p>
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
 
+<YouTube
+  title="Saving user input in JavaScript Objects"
+  url="https://www.youtube.com/embed/NxVCq4p0Kb0"
+/>
+
