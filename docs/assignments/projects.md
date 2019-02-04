@@ -83,6 +83,7 @@ App name: [your username]
 - This cordova app will be a SPA that shows a scrollable playlist of audio files. 
 - The app will use the HTML5 Audio player to play the audio, but the player itself will not be visible on the page.
 - The audio controls will be created by you.
+- This [StackOverflow Page](https://stackoverflow.com/questions/22885702/html-for-the-pause-symbol-in-audio-and-video-control) has lots of references to Font Awesome, Google Font Icons, plus the Unicode characters for creating the control characters.
 - Each of the entries in the playlist should show a title, an artist, and a thumbnail image that represents the audio file.
 - Nothing plays by default when the app loads. The user will have to top on an item in the list to play.
 - When an audio file reaches the end, the next item in the list should play.
