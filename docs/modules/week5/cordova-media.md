@@ -62,3 +62,8 @@ There are also two properties of the `Media` object. They are READ ONLY though.
 
 Use the `media.seekTo()` method to move around the file.
 
+## Important Note for Android
+
+When you are finished playing an audio file on Android, be sure to call the `media.release()` method to free system memory.
+
+
