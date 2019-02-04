@@ -90,7 +90,7 @@ App name: [your username]
 - When an audio file reaches the end, the next item in the list should play.
 - Minimum of 4 items in the playlist.
 - User should be able to click on another item to start it playing. This will stop the current one playing.
-- The user should be able to pause the playback, as well as seek to another part of the song.
+- The user should be able to pause the playback, as well as seek to another part of the song. This could be a drag bar or simply a couple buttons for jumping ahead or back 10 seconds.
 
 ## Project 3 - REMEMBRALL
 
