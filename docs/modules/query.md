@@ -70,7 +70,7 @@
 7. What is the attribute that you can use to set the order in which a user tabs through a form? [tabindex]
 8. What is the method you would use to get rid of an event listener? [removeEventListener]
 9. If I wanted to set the CSS background-color property in JS how would i write that? [element.style.backgroundColor]
-10. ?
+10. What is an alternative way of referencing the body element, other than document.querySelector('body')? [document.body]
 
 ## Week 6 - Cordova
 
