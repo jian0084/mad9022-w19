@@ -24,7 +24,7 @@ Starting with ES6, we can provide default values for parameters in our functions
 
 The JavaScript Event Loop is the internal process by which the JavaScript engine decides which order to run your commands. NodeJS uses this too. 
 
-[Learn all about the JS event loop](./event-loop)
+[Learn all about the JS event loop](./event-loop.md)
 
 ## Working with Files in Cordova
 
