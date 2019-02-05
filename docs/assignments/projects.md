@@ -81,7 +81,7 @@ App name: [your username]
 ```
 
 - This cordova app will be a SPA that shows a scrollable playlist of audio files. 
-- The app will use the HTML5 Audio player to play the audio, but the player itself will not be visible on the page.
+- The app will **NOT** use the HTML5 Audio player to play the audio, but the player itself will not be visible on the page.
 - The [Cordova Media Plugin](https://cordova.apache.org/docs/en/8.x/reference/cordova-plugin-media/index.html) will be required to play the audio on the device.
 - The audio controls will be created by you.
 - This [StackOverflow Page](https://stackoverflow.com/questions/22885702/html-for-the-pause-symbol-in-audio-and-video-control) has lots of references to Font Awesome, Google Font Icons, plus the Unicode characters for creating the control characters.
