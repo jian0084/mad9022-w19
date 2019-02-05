@@ -66,4 +66,13 @@ Use the `media.seekTo(ms)` method to move around the file. Use a **millisecond**
 
 When you are finished playing an audio file on Android, be sure to call the `media.release()` method to free system memory.
 
+## Media Error Values
 
+When the error function runs, it will receive a number that represents the reason for the failure. The numbers and values are as follows.
+
+```
+MediaError.MEDIA_ERR_ABORTED = 1
+MediaError.MEDIA_ERR_NETWORK = 2
+MediaError.MEDIA_ERR_DECODE = 3
+MediaError.MEDIA_ERR_NONE_SUPPORTED = 4
+```
