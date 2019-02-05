@@ -19,6 +19,8 @@ The Cordova Media Plugin will provide the necessary permissions for the user to 
 let media = new Media(src, mediaSuccess, mediaError, mediaStatus);
 ```
 
+For an Android device, if you were saving your audio files inside the `www` folder, inside a `media` folder then the path would start with `file:///android_asset/www/`.
+
 The primary Object that you will use with this plugin is the `Media` object. When you instantiate the Media object you should pass it a source string followed by three callback methods. The first method is the one to call upon successfully finishing playing the audio file. The second method would be called if an error occurred with loading or playing the audio file. The final one lets you know whenever there is a change in the status of the media playback.
 
 The possible values that would be sent to the mediaStatus callback method are:
@@ -32,6 +34,16 @@ Media.MEDIA_STOPPED = 4
 ```
 
 You can use this callback and the numbers as logic in your program to decide if you want to do something like play another track.
+
+When the error function runs, it will receive a number that represents the reason for the failure. The numbers and values are as follows.
+
+```
+MediaError.MEDIA_ERR_ABORTED = 1
+MediaError.MEDIA_ERR_NETWORK = 2
+MediaError.MEDIA_ERR_DECODE = 3
+MediaError.MEDIA_ERR_NONE_SUPPORTED = 4
+```
+
 
 # Media Object Methods
 
@@ -66,13 +78,3 @@ Use the `media.seekTo(ms)` method to move around the file. Use a **millisecond**
 
 When you are finished playing an audio file on Android, be sure to call the `media.release()` method to free system memory.
 
-## Media Error Values
-
-When the error function runs, it will receive a number that represents the reason for the failure. The numbers and values are as follows.
-
-```
-MediaError.MEDIA_ERR_ABORTED = 1
-MediaError.MEDIA_ERR_NETWORK = 2
-MediaError.MEDIA_ERR_DECODE = 3
-MediaError.MEDIA_ERR_NONE_SUPPORTED = 4
-```
