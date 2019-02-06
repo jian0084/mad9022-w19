@@ -7,6 +7,6 @@ Working with Geolocation in Cordova is almost exactly the same as working with i
 
 <YouTube
     title="Geolocation with JavaScript"
-    url="https://www.youtube.com/watch?v=NIAqR34eg7I"
+    url="https://www.youtube.com/embed/NIAqR34eg7I"
 />
 
