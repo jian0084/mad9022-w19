@@ -62,9 +62,9 @@
 ## Week 5 - DOM
 
 1. Other than the document object, what kind of object can use the `querySelector` method? [Element nodes]
-2. What is the event name used with `addEventListener` to capture right-click events? [contextmenu]
+2. What is the e vent name used with `addEventListener` to capture right-click events? [contextmenu]
 3. What are two events associated with a user typing? [keyup, keydown, keypress, input]
-4. What is the event to capture changes made to an input field as the user is typing? [input]
+4. What is the event to capture changes made to an input field as the user is typing? [input] 
 5. What is the event to capture the event when a user clicks in or tabs to a form field? [focus]
 6. What is the event to capture when a user clicks or tabs away from a form field? [blur]
 7. What is the attribute that you can use to set the order in which a user tabs through a form? [tabindex]

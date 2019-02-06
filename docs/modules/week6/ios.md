@@ -105,6 +105,6 @@ With Safari open, click on the Develop menu and look for the name of your Macboo
 
 <YouTube
     title="Mobile Web and Hybrid App Testing with Safari and iOS Devices"
-    url="https://www.youtube.com/watch?v=DJnwb4Qeq1M"
+    url="https://www.youtube.com/embed/DJnwb4Qeq1M"
 />
 
