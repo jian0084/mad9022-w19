@@ -22,7 +22,7 @@ This page has the [Cordova reference for icons and splashscreens](http://cordova
 
 Here is a sample entry from the config.xml file that points to the different splashscreens for a project.
 
-The file names and the density both make it clear which orientation and screen density the images are meant for. Both the splashscreen and icon images will be copied into the platforms/android/res/ folder.
+The file names and the density both make it clear which orientation and screen density the images are meant for. Both the splashscreen and icon images will be copied into the `platforms/android/res/` folder.
 
 Here is a look at the android res folder:
 

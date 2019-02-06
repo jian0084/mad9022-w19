@@ -78,3 +78,23 @@ Use the `media.seekTo(ms)` method to move around the file. Use a **millisecond**
 
 When you are finished playing an audio file on Android, be sure to call the `media.release()` method to free system memory.
 
+## Important Note for iOS
+
+IOS will require extra permissions when you add this plugin. Since the plugin wants to be able to access the microphone, we need to provide a reason for the access in our app. Without this reason Apple will reject the app.
+
+We need the permission `NSMicrophoneUsageDescription` to be added to the info.plist file in the XCode project.
+
+We can usually achieve this by editing our `config.xml` file with the following entry.
+
+```xml
+<edit-config target="NSMicrophoneUsageDescription" file="*-Info.plist" mode="merge">
+    <string>need microphone access to record sounds</string>
+</edit-config>
+```
+
+The reason why you want to access the microphone from your app should be put inside the `<string>` element.
+
+<YouTube
+    title="playing audio with the Cordova media plugin"
+    url="https://www.youtube.com/embed/Fk-DpOnuvmM"
+/>
