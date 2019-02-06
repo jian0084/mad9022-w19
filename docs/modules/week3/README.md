@@ -25,9 +25,9 @@ Here is a basic cheatsheet for the Cordova Commands and the Android CLI commands
 
 ## Android Platform Requirements
 
-Creating Android Applications requires slightly different approaches on Windows and on OSX.
+Creating Android Applications requires slightly different approaches on Windows and on OSX. The following page will help you set up both.
 
-[Android Windows Setup Information](./android.md)
+[Android Setup Information](./android.md)
 
 
 ## Single Page Application (SPA)
