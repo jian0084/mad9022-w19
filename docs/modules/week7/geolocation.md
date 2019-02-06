@@ -48,6 +48,12 @@ function gpsError( error ){
 Note: it is important to remember that the user will always be prompted by the browser for permission to access their location. If they say no, then none of your geolocation code will run. 
 
 
+<YouTube
+    title="Geolocation with JavaScript"
+    url="https://www.youtube.com/embed/NIAqR34eg7I"
+/>
+
+
 ## Links to help with Geolocation
 
 [CODEPEN sample](http://codepen.io/mad-d/pen/mymOBy?editors=101)
