@@ -12,6 +12,13 @@ While JavaScript does not support the private and public modifiers, there are wa
 
 [Learn more about Private Variables](./private-data.md)
 
+## JavaScript Dates and Times
+
+JavaScript has a built-in `Date` object that allows us to save a reference to a particular point in time. With this object we can get or set the year, day, hour, minutes, seconds, and all the other parts of the date.
+
+[Learn about JS Date and Time Objects](./dates.md)
+
+
 ## Using Luxon to work with Time and Dates
 
 `Moment.js` has been the industry standard library for working with Time and Dates for years. However, there are some limitations on this library. It doesn't have built-in support for locales or timezones. There is a new library called Luxon that supports new i18n and l10n features that are available in the browser.
