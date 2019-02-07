@@ -134,3 +134,7 @@ katie.defend();
 [MDN new operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/new)
 
 [MDN classes in JS](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/class)
+
+[HackerNoon article on arrow functions and lexical this](https://hackernoon.com/javascript-es6-arrow-functions-and-lexical-this-f2a3e2a5e8c4)
+
+[Exploring JS - Arrow Functions](http://exploringjs.com/es6/ch_arrow-functions.html)
