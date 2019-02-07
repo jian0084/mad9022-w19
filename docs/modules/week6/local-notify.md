@@ -10,3 +10,11 @@ There are a number of these plugins for creating the local notifications. This i
 
 [LocalNotifications Wiki with full documentation](https://github.com/katzer/cordova-plugin-local-notifications/wiki)
 
+
+## Installation
+
+To add the plugin, after adding your platform, use the following command in the Terminal.
+
+```
+cordova plugin add https://github.com/katzer/cordova-plugin-local-notifications
+```

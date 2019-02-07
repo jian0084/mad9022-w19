@@ -108,3 +108,18 @@ With Safari open, click on the Develop menu and look for the name of your Macboo
     url="https://www.youtube.com/embed/DJnwb4Qeq1M"
 />
 
+## iOS Simulator Notes
+
+If you want to know which iOS Simulators are available on your Macbook then run this command in the Terminal.
+
+```
+ios-sim showdevicetypes
+```
+
+This will output a list of the available devices. Then you can choose a name from the list like `iPhone-X, 12.0`. Next you can launch the simulator with the following command.
+
+```
+ios-sim start --devicetypeid "iPhone-X, 12.0"
+```
+
+This will launch whatever simulator you specify for the `--devicetypeid` parameter.
