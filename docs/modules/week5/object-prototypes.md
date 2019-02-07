@@ -120,3 +120,17 @@ katie.defend();
     title="Different Ways to Create Objects"
     url="https://www.youtube.com/embed/UrM9xgPxq1E"
 />
+
+## References
+
+[MDN Object.create()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/create)
+
+[MDN Object.assign()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/assign)
+
+[MDN keyword this](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this)
+
+[You Don't Know JS article on lexical this and prototypes](https://github.com/getify/You-Dont-Know-JS/blob/master/this%20%26%20object%20prototypes/ch2.md)
+
+[MDN new operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/new)
+
+[MDN classes in JS](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/class)
