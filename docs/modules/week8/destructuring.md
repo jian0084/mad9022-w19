@@ -1,6 +1,9 @@
 # ES6 Destructuring
 
 <YouTube
-    title=""
+    title="destructuring"
     url="https://www.youtube.com/embed/ktBTYQXBAog"
 />
+
+## References and Resources
+
