@@ -54,3 +54,12 @@ Cordova has a core plugin for controlling the appearance of the statusbar in mob
 
 [Learn more about Cordova Status Bars](./cordova-status.md)
 
+## Timed Exercise Topics
+
+This week's topics for the exercise are the Array methods:
+
+- map()
+- reduce()
+- filter()
+- forEach()
+- sort()
