@@ -47,3 +47,13 @@ The values in these variables will be as follows:
 ```
 
 Notice that the "third" Array has an Array as it's third item.
+
+<YouTube
+  title="Rest and Spread Operators"
+  url="https://www.youtube.com/embed/QtGbcvZ6774"
+/>
+
+<YouTube
+  title="Spread, chaining methods, and shallow copies"
+  url="https://www.youtube.com/embed/UJ4y7RtZLAY"
+/>
