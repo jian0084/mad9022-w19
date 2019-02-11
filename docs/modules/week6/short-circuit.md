@@ -1,5 +1,11 @@
 # Logical Short Circuiting in JavaScript
 
+## Expressions
+
+An expression is any valid unit of code that resolves to a value.
+
+## Compound If Statements
+
 When you are writing your scripts you should always try to take advantage of the process of short-circuiting. The JavaScript interpreter doesn't want to do extra work if it doesn't have to. Try to write your code so that it doesn't have to.
 
 Let's consider this if statement that is comparing multiple conditions.
