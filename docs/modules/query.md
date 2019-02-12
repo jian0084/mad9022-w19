@@ -77,7 +77,7 @@
 1. What is the command to launch a Cordova app in the emulator? [cordova emulate ios]
 2. What is the name of the plugin for the Camera that you would use when installing the plugin? [cordova-plugin-camera]
 3. What is the current major version of Cordova? [8]
-4. What is the name or number of the latest API of Android? [Oreo 26, 27, Pie 28]
+4. What is the name or number of the latest API of Android? [Oreo 26, Nougat 27, Pie 28]
 5. What is the current major version of iOS? [12]
 6. If you wanted to have some code that runs when your Cordova app is being put into the background then what event would you add a listener for? [pause]
 7. What plugin do you use to set a reminder in Cordova? [local-notification]
@@ -85,7 +85,12 @@
 
 ## Week 7 - Objects
 
-1. ?
+1. What type of inheritance does JavaScript use? [Prototypical]
+2. What is the keyword that you can use to add a property/method to the prototype of an Object? [prototype]
+3. How does putting `new` in front of a function call change the return value from the function? [Object]
+4. Inside a function called with `new`, what does the keyword `this` represent? [the returned object]
+5. When we use `call` `apply` or `bind`, what is the first argument? [the context, `this`]
+6. ?
 
 ## Week 8 - Loops
 
