@@ -124,4 +124,15 @@ We can cancel notifications if they have not been triggered yet. We can clear no
 
 ### Notification Events
 
+If you want your app to run either when a notification is triggered or when the user taps on the pop up notice we can use an eventlistener to connect with that event.
+
+```js
+cordova.plugins.notification.local.on("click", function(notification) {
+  //function runs when the user has tapped on the notification pop up
+});
+cordova.plugins.notification.local.on("triggered", function(notification) {
+  //function runs when the notification pops up
+});
+```
+
 [Event Reference](https://github.com/katzer/cordova-plugin-local-notifications/wiki/09.-Events)
