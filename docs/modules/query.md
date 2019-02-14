@@ -95,10 +95,9 @@
 ## Week 8 - Loops
 
 1. how would you write a for loop that counts down from 10 to zero? [for(let i=10; i<=0; i--){}]
-2. Name another kind of for loop. [for...in for...of]
-3. Name a method that will loop through an Array. [forEach, map, filter, reduce]
-4. Name a loop that is not a for loop or an Array method. [while, do while]
-5. ?
+2. Name another kind of for loop. x2 [for...in for...of]
+3. Name a method that will loop through an Array. x4 [forEach, map, filter, reduce]
+4. Name a loop that is not a for loop or an Array method. x2 [while, do while]
 
 ## Week 9 - CSS
 
