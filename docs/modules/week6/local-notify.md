@@ -130,6 +130,7 @@ If you want your app to run either when a notification is triggered or when the 
 cordova.plugins.notification.local.on("click", function(notification) {
   //function runs when the user has tapped on the notification pop up
 });
+
 cordova.plugins.notification.local.on("triggered", function(notification) {
   //function runs when the notification pops up
 });
