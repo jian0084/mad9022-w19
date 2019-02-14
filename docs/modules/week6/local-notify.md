@@ -118,6 +118,17 @@ cordova.plugins.notification.local.isTriggered(1, triggered => {
 
 We can cancel notifications if they have not been triggered yet. We can clear notifications after they have been added to the notification center or triggered.
 
+```js
+cordova.plugins.notification.local.cancel(id, () => {
+  // will get rid of notification id 1 if it has NOT been triggered or added to the notification center
+  // cancelAll() will get rid of all of them
+});
+
+cordova.plugins.notification.local.clear(id, () => {
+  // will dismiss a notification that has been triggered or added to notification center
+});
+```
+
 [Cancelling Reference](https://github.com/katzer/cordova-plugin-local-notifications/wiki/07.-Cancelation)
 
 [Clearing Reference](https://github.com/katzer/cordova-plugin-local-notifications/wiki/06.-Clear)
