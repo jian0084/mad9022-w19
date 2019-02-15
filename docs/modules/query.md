@@ -81,6 +81,8 @@
 6. If you wanted to have some code that runs when your Cordova app is being put into the background then what event would you add a listener for? [pause]
 7. What plugin do you use to set a reminder in Cordova? [local-notification]
 8. What is the name of the extra permission that you have to set in iOS for the Camera? [CAMERA_USAGE_DESCRIPTION or PHOTOLIBRARY_USAGE_DESCRIPTION]
+9. What is the name of the xml settings file for Cordova projects? [config.xml]
+10. What is the name of the settings file that is used by npm to manage the project? [package.json]
 
 ## Week 7 - Objects
 
