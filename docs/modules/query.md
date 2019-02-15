@@ -91,7 +91,7 @@
 3. How does putting `new` in front of a function call change the return value from the function? [Object]
 4. Inside a function called with `new`, what does the keyword `this` represent? [the returned object]
 5. When we use `call` `apply` or `bind`, what is the first argument? [the context, `this`]
-6. Name a way to create an Object. [Object.create(), {}, new Object(), new (function(){})() ]
+6. Name a way to create an Object. [Object.create(), {}, new Object(), new Func(), class ]
 7. Name two primitive types in JS. [String, Number, Boolean, null, undefined, Symbol]
 
 ## Week 8 - Loops
