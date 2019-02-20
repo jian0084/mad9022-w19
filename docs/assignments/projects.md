@@ -186,7 +186,7 @@ The data that returns from the fetch will look something like this:
 ]}
 ```
 
-Note that each person object will contain a first name, last name, and an avatar image. The images all sit inside the folder defined in the `imgBaseURL` property at the root level. You will need to use the `decodeURLComponent()` method to use the value of `imgBaseURL`. [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/decodeURIComponent](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/decodeURIComponent).
+Note that each person object will contain a first name, last name, and an avatar image. The images all sit inside the folder defined in the `imgBaseURL` property at the root level. You will need to use the `decodeURLComponent()` method to use the value of `imgBaseURL`. [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/decodeURIComponent](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/decodeURIComponent). An example of a complete URL for an image would be `//griffis.edumedia.ca/mad9022/tundra/profiles/f-009.jpg`.
 
 The `profiles` array from the data should be looped through and a single card created for each profile.
 
