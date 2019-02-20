@@ -226,6 +226,8 @@ Here is a framework that you can use for your interface. It provides the basic C
 
 [https://github.com/prof3ssorSt3v3/tinyshell](https://github.com/prof3ssorSt3v3/tinyshell)
 
+A new version of the Framework is being developed currently. Make sure that you are using version 1.0+ of Tiny\$hell.
+
 You are **NOT** required to use this framework. You can write all your own CSS and JS if you want.
 
 OR you can just use the JavaScript from the framework and write your own CSS.
