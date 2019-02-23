@@ -2,7 +2,7 @@
 
 ## Gestures on Mobile Devices
 
-There are `Mouse Events`, `Touch Events`, and `Pointer Events` available to us in JavaScript. However, there are no built-in `Gestures`. What does that mean?  What exactly is a Gesture?
+There are `Mouse Events`, `Touch Events`, and `Pointer Events` available to us in JavaScript. However, there are no built-in `Gestures`. What does that mean? What exactly is a Gesture?
 
 A Gesture is something like - tap, swipe, pan, pinch, zoom, rotate, 2-finger swipe, 3-finger swipe, etc. Something like a swipe requires calculation. Where did the first finger touch? Which direction did it move? Where did it stop and leave the screen? How quickly did it move? We have to calculate all those things and write our own Event listeners and functions to be able to use Gestures in our mobile websites.
 
@@ -14,10 +14,10 @@ Want to use an actual database and SQL syntax in your mobile app to save data? C
 
 [Learn more about using SQL in Cordova](./cordova-sql.md)
 
-# Tiny$hell Framework
+# Tiny\$hell Framework
 
-Tiny$hell is a framework built by Steve to save time on small Cordova projects by providing a base set of CSS styles and a small set of gestures. 
+Tiny\$hell is a framework built by Steve to save time on small Cordova projects by providing a base set of CSS styles and a small set of gestures.
 
 **Currently being redeveloped with new JavaScript and updated CSS layout using Flexbox.**
 
-[Link coming soon](./tinyshell.md)
+[Tiny\$hell Framework](./tinyshell.md)

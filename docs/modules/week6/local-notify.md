@@ -17,7 +17,7 @@ Now it is worth noting that there are different versions of the plugin and that 
 To add the plugin, after adding your platform, use the following command in the Terminal.
 
 ```
-cordova plugin add https://github.com/katzer/cordova-plugin-local-notifications
+cordova plugin add de.appplant.cordova.plugin.local-notification
 ```
 
 If you look in your package.json file you will actually see three different things installed as dependencies after doing the install.
