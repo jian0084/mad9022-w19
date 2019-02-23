@@ -18,6 +18,6 @@ Want to use an actual database and SQL syntax in your mobile app to save data? C
 
 Tiny\$hell is a framework built by Steve to save time on small Cordova projects by providing a base set of CSS styles and a small set of gestures.
 
-**Currently being redeveloped with new JavaScript and updated CSS layout using Flexbox.**
+**Recently redeveloped with new JavaScript and updated CSS layout using Flexbox.**
 
 [Tiny\$hell Framework](./tinyshell.md)
