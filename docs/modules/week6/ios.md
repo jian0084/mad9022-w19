@@ -4,7 +4,6 @@
 
 Always make sure that you have downloaded and installed the latest version of XCode. Apple is notorious for silently failing to let things run if you don't have the latest version.
 
-
 ## XCode Simulators and API versions
 
 In Android Studio we update the API versions for working with Android. To download new API versions for iOS devices, we use XCode.
@@ -13,17 +12,15 @@ In Android Studio we update the API versions for working with Android. To downlo
 - Select `preferences`
 - Go to the `Components` tab to see everything that is available and already downloaded.
 
-
 ## Adding iOS API versions
 
 Having the latest updates for XCode will give you the latest batch of API versions.
-
 
 ## Apple Developer Accounts
 
 You should have received an invitation to join our Apple Developer Account. Please use your ALGONQUINLIVE email address to login. That means you will need to create an Apple ID with your @algonquinlive.com email. This account will be connected with our College Apple Developer Account and will not cost you anything.
 
-When you want to have your own Account and actually push things to the App Store then you will want to buy your own Apple Developer Account ($99 per year). You will want to use your own Apple ID and your own email address for that.
+When you want to have your own Account and actually push things to the App Store then you will want to buy your own Apple Developer Account (\$99 per year). You will want to use your own Apple ID and your own email address for that.
 
 An invitation has been sent to everyone to join the Algonquin College (Media & Design) Apple Developer account as members. You will need to accept this invitation and become a registered Apple Developer before you can test any iOS apps that you build.
 
@@ -37,7 +34,7 @@ To compile and install an iOS app you will need to do the following things:
 <YouTube
     title="iOS Development Certificates"
     url="https://www.youtube.com/embed/1ocAaWzhK9k"
-/> 
+/>
 
 Every time a new developer certificate is created or a device is added to our Apple account then an account administrator (Steve) has to create a new updated provisioning certificate.
 
@@ -69,7 +66,7 @@ We will also want to add the proper tools for XCode to integrate Cordova with XC
 
 ```
 xcode-select --install
-``` 
+```
 
 ## Set up for iOS Deployment from Cordova
 
@@ -77,7 +74,7 @@ NPM has a tool for deploying to an iOS device from the command line. This will l
 
 ```
 npm install -g ios-deploy --unsafe-perm=true
-``` 
+```
 
 Then you will be able to do this:
 
@@ -123,3 +120,19 @@ ios-sim start --devicetypeid "iPhone-X, 12.0"
 ```
 
 This will launch whatever simulator you specify for the `--devicetypeid` parameter.
+
+## Note About XCode 10
+
+In the newer versions of XCode there is a problem with the build process if you run it from the command line. It will work fine from XCode. If you find the `.xcodeproject` file in your `platforms/ios` folder and double click it, then it will open your Cordova project in XCode. From there you can build and run your app.
+
+Remember though, that you have to rebuild the project in the terminal to copy the latest files from the `www` folder into your iOS project.
+
+To build your project fully and launch it from the command line we need to add another flag to the command.
+
+```
+cordova emulate ios --target="iPhone-8, 12.0" --buildFlag="-UseModernBuildSystem=0"
+```
+
+When we run the `emulate` command we should specific which Simulator we want to use to test our app. This is accomplished with the `--target` flag. You can change the target to any of the available devices from the `ios-sim showdevicetypes` command above.
+
+Next we need to add the `--buildFlag` flag. This will work around the XCode 10 problem. We are telling the XCode build engine to avoid the problems caused for Cordova in the new build process.

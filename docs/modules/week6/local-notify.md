@@ -147,4 +147,9 @@ cordova.plugins.notification.local.on("triggered", function(notification) {
 });
 ```
 
+<YouTube
+  title=""
+  url=""
+/>
+
 [Event Reference](https://github.com/katzer/cordova-plugin-local-notifications/wiki/09.-Events)
