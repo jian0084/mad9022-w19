@@ -173,3 +173,5 @@ Edit the line that points to the android support library. change the value from 
 ```
 cordova.system.library.1=com.android.support:support-v4:27.1.0
 ```
+
+You can change the target build version of the API in this file too.
