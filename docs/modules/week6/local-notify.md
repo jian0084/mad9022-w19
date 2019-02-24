@@ -153,3 +153,23 @@ cordova.plugins.notification.local.on("triggered", function(notification) {
 />
 
 [Event Reference](https://github.com/katzer/cordova-plugin-local-notifications/wiki/09.-Events)
+
+## Android Notes
+
+The older version of the local notification plugin worked well with the older versions of Android. However, if you have the newer versions of Gradle and the Android SDK installed or you are trying to build an app for Android 8 (Oreo) or higher then you will need to use the newer beta version of the plugin.
+
+```
+cordova plugin add cordova-local-notification@0.9.0-beta.1
+```
+
+I would recommend that you use the new beta version of the plugin for any Android project that you create with Cordova.
+
+When you are building for Android you may run into an error during the build process. If you do, then you should edit the `project.properties` page.
+
+Go to `platforms/android/` and open the `project.properties` file.
+
+Edit the line that points to the android support library. change the value from `:support-v4:+` to the following.
+
+```
+cordova.system.library.1=com.android.support:support-v4:27.1.0
+```
