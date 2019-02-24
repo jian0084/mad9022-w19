@@ -172,6 +172,6 @@ cordova.system.library.1=com.android.support:support-v4:27.1.0
 You can change the target build version of the API in this file too.
 
 <YouTube
-  title=""
-  url=""
+  title="Local Notification Plugin"
+  url="https://www.youtube.com/embed/pSjbcsDT2PM"
 />
