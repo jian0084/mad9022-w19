@@ -147,11 +147,6 @@ cordova.plugins.notification.local.on("triggered", function(notification) {
 });
 ```
 
-<YouTube
-  title=""
-  url=""
-/>
-
 [Event Reference](https://github.com/katzer/cordova-plugin-local-notifications/wiki/09.-Events)
 
 ## Android Notes
@@ -175,3 +170,8 @@ cordova.system.library.1=com.android.support:support-v4:27.1.0
 ```
 
 You can change the target build version of the API in this file too.
+
+<YouTube
+  title=""
+  url=""
+/>
