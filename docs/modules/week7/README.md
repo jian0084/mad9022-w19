@@ -1,5 +1,11 @@
 # 7. Geolocation & Google Maps
 
+## Cordova iOS Development
+
+Here is the reference for setting up your environment for developing iOS apps with Cordova.
+
+[Read the reference](../week6/ios.md)
+
 ## Geolocation
 
 When you want to find the latitude and longitude of a user, the `navigator.geolocation` object is what we use. This is one of the HTML5 APIs.
@@ -18,7 +24,7 @@ To work with the Google Maps API (Javascript version) we need to register for a 
 
 ### Google Maps Controls
 
-Every interactive Google Map has many controls that can be placed on the map. This like zoom, pan, scale, and street view. 
+Every interactive Google Map has many controls that can be placed on the map. This like zoom, pan, scale, and street view.
 
 [Learn about Maps Controls](./google-maps-controls.md)
 
@@ -33,8 +39,6 @@ Just like the DOM has events to enable us to listen for user interactions, the G
 When you want to add `Markers` or `InfoWindows` to the map, the Google Maps API has methods and properties that we can use to create these.
 
 [Learn about Map Markers](./google-maps-markers.md)
-
-
 
 ## Cordova Geolocation
 

@@ -93,7 +93,7 @@
 5. When we use `call` `apply` or `bind`, what is the first argument? [the context, `this`]
 6. Name a way to create an Object. [Object.create(), {}, new Object(), new Func(), class ]
 7. Name two primitive types in JS. [String, Number, Boolean, null, undefined, Symbol]
-
+ 
 ## Week 8 - Loops
 
 1. how would you write a for loop that counts down from 10 to zero? [for(let i=10; i<=0; i--){}]

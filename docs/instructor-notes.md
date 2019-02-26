@@ -5,4 +5,11 @@ Example for how to use the YouTube component
   url="https://www.youtube.com/watch?v=KlXSNRswgBU"
 />
 
-Note for Su Cheng...
+Next year change order for Cordova projects
+
+1. Audio player
+2. Photo
+3. Geolocation
+4.
+5.
+6.

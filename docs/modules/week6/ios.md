@@ -1,8 +1,14 @@
 # Working with iOS
 
+## Updating OSX
+
+For best results when developing with iOS you should always have your OSX updated to the latest version and then update XCode as well. In our case, this means updating OSX to Mojave (version 10.14) through the App Store.
+
 ## Installing and Updating XCode
 
-Always make sure that you have downloaded and installed the latest version of XCode. Apple is notorious for silently failing to let things run if you don't have the latest version.
+Always make sure that you have downloaded and installed the latest version of XCode. Apple is notorious for silently failing to let things run if you don't have the latest version. We currently want version 10.1.
+
+There will also be command line build tools that we want to install and NPM modules `ios-sim` and `ios-deploy` that we will want installed. See below for details on these.
 
 ## XCode Simulators and API versions
 
@@ -24,6 +30,10 @@ When you want to have your own Account and actually push things to the App Store
 
 An invitation has been sent to everyone to join the Algonquin College (Media & Design) Apple Developer account as members. You will need to accept this invitation and become a registered Apple Developer before you can test any iOS apps that you build.
 
+## Certificates
+
+You will need to create a signed certificate that will create a connection between your Apple Developer account, our College account, and your MacBook Pro with your copy of XCode. You can follow the instructions on the [developer.apple.com](https://developer.apple.com/) website for creating the certificate signing request `CSR` on your computer. This `CSR` will be uploaded to the website and then you will be given a certificate to download and install in `Keychain Access`.
+
 To compile and install an iOS app you will need to do the following things:
 
 1. Register as an Apple Developer here [https://developer.apple.com/account/](https://developer.apple.com/account/)
@@ -37,10 +47,6 @@ To compile and install an iOS app you will need to do the following things:
 />
 
 Every time a new developer certificate is created or a device is added to our Apple account then an account administrator (Steve) has to create a new updated provisioning certificate.
-
-## Certificates
-
-You will need to create a signed certificate that will create a connection between your Apple Developer account, our College account, and your MacBook Pro with your copy of XCode.
 
 ## Provisioning Profiles
 
@@ -73,8 +79,10 @@ xcode-select --install
 NPM has a tool for deploying to an iOS device from the command line. This will let us launch our apps from the command line into the iOS device. From the terminal run this command:
 
 ```
-npm install -g ios-deploy --unsafe-perm=true
+npm install -g ios-deploy --unsafe-perm=true --allow-root
 ```
+
+You may also need to find where ios-deploy has been installed on your system and give full write access to that folder.
 
 Then you will be able to do this:
 
@@ -87,7 +95,7 @@ On the command line and launch into the connected iOS device.
 THERE MAY BE ISSUES with installing this that will require you to use "sudo".
 
 ```
-sudo npm install -g ios-deploy --unsafe-perm=true
+sudo npm install -g ios-deploy --unsafe-perm=true --allow-root
 ```
 
 If there are still permission issues then reference this link to see the extra options to use when running the sudo npm install command - [NPM reference for ios-deploy](https://www.npmjs.com/package/ios-deploy).
