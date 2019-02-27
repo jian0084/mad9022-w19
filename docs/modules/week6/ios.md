@@ -144,3 +144,32 @@ cordova emulate ios --target="iPhone-8, 12.0" --buildFlag="-UseModernBuildSystem
 When we run the `emulate` command we should specific which Simulator we want to use to test our app. This is accomplished with the `--target` flag. You can change the target to any of the available devices from the `ios-sim showdevicetypes` command above.
 
 Next we need to add the `--buildFlag` flag. This will work around the XCode 10 problem. We are telling the XCode build engine to avoid the problems caused for Cordova in the new build process.
+
+## Installation Problems
+
+If you run into problems with installing ios-sim or ios-deploy there are a few things you can try.
+
+1. Make sure that you have the latest version of OSX installed (Mojave 10.14)
+2. Make sure that you have the latest version of XCode installed 10.1.
+3. When installing `ios-sim` or `ios-deploy` you may need to use `sudo`.
+4. Sometimes `ios-sim` or `ios-deploy` will be pointing to the wrong location of the Xcode build tools. If you see an error that talks about `simctl` or version 8.x of XCode then try the following. Run
+
+```
+xcode-select -s /Applications/Xcode.app/Contents/Developer
+```
+
+This will point to the latest version of Xcode for the build tools.
+
+6. You can try running `xcode-select --install` again to update the build tools too.
+7. Open XCode. Go to the `Preferences` menu and select the `Locations` tab. Make sure that Xcode 10.1 is selected in the drop down list.
+8. Test by trying to launch the iOS Simulator from the command line using the `ios-sim` command, as explained above.
+9. Next try creating a Cordova project, adding the ios platform, and run the `cordova build ios` command with the `--buildFlag` as detailed above.
+10. Finally, try to `cordova emulate ios` with the `target` and the `buildFlag` as detailed above.
+11. If this still fails you might need to use [homebrew]() to install ios-deploy.
+12. If you get an error about `~/.config/configstore/` needing permissions then navigate to the `~/.config/` folder in the Terminal. Run the command `ls -la` to see the permissions and owner of the folders. There should be a folder that is owned by your user account. For example, on my MBP the owner of the folder is `steve`. We want to make sure that your user account is the owner of the `configstore` folder. We will use the `chown` command to fix this.
+
+```
+chown -R [your username here] configstore
+```
+
+Put your own username in the command without the square brackets.
