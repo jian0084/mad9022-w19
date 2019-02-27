@@ -145,7 +145,7 @@ When we run the `emulate` command we should specific which Simulator we want to 
 
 Next we need to add the `--buildFlag` flag. This will work around the XCode 10 problem. We are telling the XCode build engine to avoid the problems caused for Cordova in the new build process.
 
-## Installation Problems
+## Installation Problems with ios-sim and ios-deploy
 
 If you run into problems with installing ios-sim or ios-deploy there are a few things you can try.
 
