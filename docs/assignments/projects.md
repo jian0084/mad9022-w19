@@ -114,7 +114,8 @@ App name: [your username]
 - Remember to adjust the saved date so the reminder appears a week before the actual date.
 - Save the entered dates on the device using `localNotification`.
 - Sort the list by month and day.
-- When the user taps on the notification, it should open your app.
+- When the Notification appears on the device and the user taps on the notification, it should open your app.
+- Try to do something when your app is opened by a user tapping a notification. Eg: highlight the notification that they clicked or add a repeat of the notification for the following year.
 
 ## Project 4 - FINDR
 
