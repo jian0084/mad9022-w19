@@ -104,14 +104,15 @@ App name: [your username]
 
 - The app will use `localNotifications` to save the dates of special occassions.
 - The home page will show a list of saved dates with labels.
-- Each date should have a `remove` button.
-- There will also be an `add` button in the header bar, which will show a new screen where you can enter a new label and date.
+- Each date should have a `remove` button with a confirmation dialog.
+- There will also be an `add` button **in the header bar**, which will show a new screen where you can enter a new label and date. Follow the iOS HIG (Human Interface Guidelines).
 - The app should pop up a `localNotification` one week before the date. You will take the date that is entered and then add the current year, if the date is in the future, or add next year if the date is past, to set the reminder.
 - [localNotification Plugin page](https://github.com/katzer/cordova-plugin-local-notifications)
-- Each notifcation will need to have a unique id. The timestamp of the reminder time is a good choice.
-- You will need to have an icon to use on the notifcation.
+- Each notifcation will need to have a unique id. The timestamp of the reminder time or the current value of `new Date().getMilliseconds()` is a good choice for the id.
+- Use `8am` as the time for all reminders unless you are having the user set a specific time.
+- You will **NOT** be able to have an icon to use on the notifcation because this is an Android feature.
 - Remember to adjust the saved date so the reminder appears a week before the actual date.
-- Save the entered dates in localStorage.
+- Save the entered dates on the device using `localNotification`.
 - Sort the list by month and day.
 - When the user taps on the notification, it should open your app.
 
